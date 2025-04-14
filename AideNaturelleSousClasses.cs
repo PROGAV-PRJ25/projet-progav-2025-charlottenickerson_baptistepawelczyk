@@ -1,0 +1,1 @@
+class Coccinelle : AideNaturelle { }
