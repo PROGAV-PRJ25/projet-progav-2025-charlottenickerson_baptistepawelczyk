@@ -1,0 +1,5 @@
+H:\Programmation avancée\projet-progav-2025-charlottenickerson_baptistepawelczyk\obj\Debug\net8.0\projet-progav-2025-charlottenickerson_baptistepawelczyk.GeneratedMSBuildEditorConfig.editorconfig
+H:\Programmation avancée\projet-progav-2025-charlottenickerson_baptistepawelczyk\obj\Debug\net8.0\projet-progav-2025-charlottenickerson_baptistepawelczyk.AssemblyInfoInputs.cache
+H:\Programmation avancée\projet-progav-2025-charlottenickerson_baptistepawelczyk\obj\Debug\net8.0\projet-progav-2025-charlottenickerson_baptistepawelczyk.AssemblyInfo.cs
+H:\Programmation avancée\projet-progav-2025-charlottenickerson_baptistepawelczyk\obj\Debug\net8.0\projet-progav-2025-charlottenickerson_baptistepawelczyk.csproj.CoreCompileInputs.cache
+H:\Programmation avancée\projet-progav-2025-charlottenickerson_baptistepawelczyk\obj\Debug\net8.0\projet-progav-2025-charlottenickerson_baptistepawelczyk.sourcelink.json
