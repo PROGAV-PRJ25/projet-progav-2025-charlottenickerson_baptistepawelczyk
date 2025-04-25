@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("projet-progav-2025-charlottenickerson_baptistepawelczyk")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4000018aa6ea73e9d0f3474ea6991597fb5f39e4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff0c10e7cd608602a6e5054abf3e0c05b1c746f1")]
 [assembly: System.Reflection.AssemblyProductAttribute("projet-progav-2025-charlottenickerson_baptistepawelczyk")]
 [assembly: System.Reflection.AssemblyTitleAttribute("projet-progav-2025-charlottenickerson_baptistepawelczyk")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
