@@ -1,3 +1,3 @@
 ﻿Plaine plaine = new Plaine();
-Ail plante = new Ail(plaine);
+Ananas plante = new Ananas(plaine);
 Console.WriteLine(plante);
