@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace projstartover
 {
@@ -14,3 +14,7 @@ namespace projstartover
         }
     }
 }
+
+/*Plaine plaine = new Plaine();
+Ananas plante = new Ananas(plaine);
+Console.WriteLine(plante);*/
