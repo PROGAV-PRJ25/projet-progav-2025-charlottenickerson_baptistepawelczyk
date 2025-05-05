@@ -41,6 +41,8 @@ public abstract class Plante {
         message += $"\nType : {Type}";
         if (MauvaisesHerbes)
             message += " | Propage des mauvaises herbes";
+        if (EstComestible)
+            message += " | Est comestible";
         message += $"\nTerrain préféré : {TerrainPrefere} | Espacement entre deux plantes : {Espacement} cases";
         message += $"\nVitesse de croissance : {VitesseCroissance} mois | Besoins en eau : {BesoinsEnEau} L/m²/jour";
         message += $"\nA besoin d'une {BesoinsEnLuminosite} | Températures préférées : {TemperaturesPreferees[0]}-{TemperaturesPreferees[1]}°C";
