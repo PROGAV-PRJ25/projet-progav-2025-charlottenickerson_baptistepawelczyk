@@ -12,7 +12,7 @@ public abstract class Plante {
     protected List<int> TemperaturesPreferees;
     protected List<string> MaladiesPossibles;
     protected List<int> ProbabilitesMaladies;
-    protected int EsperanceDeVie;
+    protected double EsperanceDeVie;
     protected int Rendement;
     protected string EtatPlante; // Germination, Croissance, Mûre, Morte
 
@@ -44,13 +44,23 @@ public abstract class Plante {
         if (EstComestible)
             message += " | Est comestible";
         message += $"\nTerrain préféré : {TerrainPrefere} | Espacement entre deux plantes : {Espacement} cases";
-        message += $"\nVitesse de croissance : {VitesseCroissance} mois | Besoins en eau : {BesoinsEnEau} L/m²/jour";
+        message += $"\nVitesse de croissance : ";
+        if (VitesseCroissance<1)
+            message += $"{Math.Round(VitesseCroissance*30)} jours ";
+        else
+            message += $"{VitesseCroissance} mois ";
+        message += $"| Besoins en eau : {BesoinsEnEau} L/m²/jour";
         message += $"\nA besoin d'une {BesoinsEnLuminosite} | Températures préférées : {TemperaturesPreferees[0]}-{TemperaturesPreferees[1]}°C";
         message += $"\nMaladies possibles : ";
         int taille = MaladiesPossibles.Count;
         for (int i=0; i<taille; i++)
             message += $"{MaladiesPossibles[i]} (probabilité {ProbabilitesMaladies[i]}%) ";
-        message += $"\nEspérance de vie : {EsperanceDeVie} an | Rendement : {Rendement} unité(s)";
+        message += $"\nEspérance de vie : ";
+        if (EsperanceDeVie<1)
+            message += $"{EsperanceDeVie*12} mois ";
+        else
+            message += $"{EsperanceDeVie} an ";
+        message += $"| Rendement : {Rendement} unité(s)";
         return message;
     }
 }

@@ -483,9 +483,5 @@ $RECYCLE.BIN/
 # Vim temporary swap files
 *.swp
 
-# Ignorer les dossiers bin et obj
-bin/
-obj/
-
 # Ignorer le fichier .sln spécifique
 projet-progav-2025-charlottenickerson_baptistepawelczyk.sln
