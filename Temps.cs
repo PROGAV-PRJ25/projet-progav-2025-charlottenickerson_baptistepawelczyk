@@ -35,6 +35,9 @@ public class Temps
         
         // Génération des précipitations initiales basées sur la saison
         precipitations.GenererPrecipitations(saison.GetSaisonActuelle());
+        
+        // Définir cette instance comme référence pour la classe Parcelle
+        Parcelle.SetTempsReference(this);
     }
     
     // Méthode pour passer à la semaine suivante
@@ -51,6 +54,9 @@ public class Temps
         
         // Génération de nouvelles précipitations basées sur la saison actuelle
         precipitations.GenererPrecipitations(saison.GetSaisonActuelle());
+        
+        // Simuler la croissance des plantes avec les nouvelles conditions
+        affichage.SimulerCroissancePlantes(this);
     }
     
     // Méthode pour obtenir le numéro de semaine actuelle
@@ -64,6 +70,12 @@ public class Temps
     {
         return saison.GetSaisonActuelle();
     }
+    
+    // Getter pour la température actuelle
+    public Temperature Temperature => temperature;
+    
+    // Getter pour les précipitations actuelles
+    public Precipitations Precipitations => precipitations;
     
     // Méthode pour afficher le tableau de bord avec les statistiques
     private int AfficherTableauDeBord(int largeurConsole)
@@ -224,16 +236,9 @@ public class Temps
             positionApresTableau = Math.Min(positionApresTableau, hauteurConsole - 20);
         }
         
-        // Affichage de la parcelle sélectionnée en dessous du tableau de bord
-        affichage.AfficherParcelleSelectionnee(positionApresTableau);
-        
         // Positionner le curseur après tous les éléments affichés
         int cursorPos = Math.Min(Console.CursorTop + 2, hauteurConsole - 3);
         Console.SetCursorPosition(0, cursorPos);
-        
-        // Affichage des instructions pour le joueur
-        Console.WriteLine("\nAppuyez sur 'N' ou 'ENTER' pour passer à la semaine suivante...");
-        Console.WriteLine("Appuyez sur 'Q' pour quitter le jeu.");
     }
     
     // Méthode principale de la boucle de jeu
@@ -248,36 +253,58 @@ public class Temps
             AfficherJeu();
             
             bool passerAuTourSuivant = false;
+            bool modeActionParcelle = false;
             
             // Attendre l'entrée de l'utilisateur jusqu'à ce qu'il décide de passer au tour suivant
             while (!passerAuTourSuivant && jeuEnCours)
             {
-                Console.Write("Action (coordonnées x,y pour sélectionner une parcelle, N/ENTER pour tour suivant, Q pour quitter): ");
-                string input = Console.ReadLine();
-                
-                // Vérifier si l'utilisateur veut quitter le jeu
-                if (input?.ToUpper() == "Q")
+                if (!modeActionParcelle)
                 {
-                    jeuEnCours = false;
-                }
-                // Vérifier si l'utilisateur veut passer au tour suivant
-                else if (string.IsNullOrWhiteSpace(input) || input.ToUpper() == "N")
-                {
-                    passerAuTourSuivant = true;
-                }
-                else
-                {
-                    // Gérer le clic sur une parcelle
-                    bool passerTour = affichage.GererClicParcelle(input);
+                    Console.Write("Action (coordonnées x,y pour sélectionner une parcelle, N/ENTER pour tour suivant, Q pour quitter): ");
+                    string input = Console.ReadLine();
                     
-                    if (passerTour)
+                    // Vérifier si l'utilisateur veut quitter le jeu
+                    if (input?.ToUpper() == "Q")
+                    {
+                        jeuEnCours = false;
+                    }
+                    // Vérifier si l'utilisateur veut passer au tour suivant
+                    else if (string.IsNullOrWhiteSpace(input) || input.ToUpper() == "N" || input.ToLower() == "next")
                     {
                         passerAuTourSuivant = true;
                     }
                     else
                     {
-                        // Réafficher le jeu pour montrer la parcelle sélectionnée
+                        // Gérer le clic sur une parcelle
+                        bool passerTour = affichage.GererClicParcelle(input);
+                        
+                        if (passerTour)
+                        {
+                            passerAuTourSuivant = true;
+                        }
+                        else
+                        {
+                            modeActionParcelle = true;
+                        }
+                    }
+                }
+                else
+                {
+                    // En mode action sur une parcelle sélectionnée
+                    Console.Write("Entrez le numéro de l'action (0 pour revenir): ");
+                    string? actionInput = Console.ReadLine();
+                    
+                    // Gérer l'action sur la parcelle
+                    bool passerTour = affichage.GererActionParcelle(actionInput ?? "0");
+                    
+                    if (actionInput == "0")
+                    {
+                        modeActionParcelle = false;
                         AfficherJeu();
+                    }
+                    else if (passerTour)
+                    {
+                        passerAuTourSuivant = true;
                     }
                 }
             }
