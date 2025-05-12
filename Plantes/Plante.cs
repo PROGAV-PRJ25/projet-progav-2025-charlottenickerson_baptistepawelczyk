@@ -1,18 +1,18 @@
 public abstract class Plante {
-    protected string Nom;
+    public string Nom;
     protected string Type;
     protected bool EstComestible;
     protected bool MauvaisesHerbes;
     protected List<string> Saisons;
     protected string TerrainPrefere;
     protected double Espacement;
-    protected double VitesseCroissance;
-    protected double BesoinsEnEau;
-    protected string BesoinsEnLuminosite;
-    protected List<int> TemperaturesPreferees;
+    protected double VitesseCroissance; // En mois
+    protected double BesoinsEnEau; // En L/m²/jour
+    protected string BesoinsEnLuminosite; // Faible, moyenne ou forte
+    protected List<int> TemperaturesPreferees; // En °C
     protected List<string> MaladiesPossibles;
     protected List<int> ProbabilitesMaladies;
-    protected double EsperanceDeVie;
+    protected double EsperanceDeVie; // En année
     protected int Rendement;
     protected string EtatPlante; // Germination, Croissance, Mûre, Morte
 
@@ -28,6 +28,7 @@ public abstract class Plante {
         MaladiesPossibles = new List<string> {};
         ProbabilitesMaladies = new List<int> {};
         EtatPlante = "Inconnu";
+        terrain.AjouterPlante(this);
     }
 
     // void Pousser(ConditionsEnvironnementales conditions);

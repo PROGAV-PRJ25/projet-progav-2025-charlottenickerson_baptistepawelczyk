@@ -1,4 +1,4 @@
-namespace projstartover
+/*namespace projstartover
 {
     class Program
     {
@@ -11,8 +11,14 @@ namespace projstartover
             temps.DemarrerJeu();
         }
     }
-}
+}*/
 
-/*Plaine plaine = new Plaine();
-Ananas plante = new Ananas(plaine);
-Console.WriteLine(plante);*/
+Plaine plaine = new Plaine("NomDuTerrain");
+Ananas ananas = new Ananas(plaine);
+Coton coton = new Coton(plaine);
+
+Console.WriteLine(ananas);
+Console.WriteLine();
+Console.WriteLine(coton);
+Console.WriteLine();
+Console.WriteLine(plaine);

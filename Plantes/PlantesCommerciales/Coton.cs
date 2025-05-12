@@ -4,7 +4,7 @@ public class Coton:PlanteCommerciale {
         Nom ="Coton";
         Type = "Annuelle";
         Saisons = new List<string> {"Printemps", "Été"};
-        TerrainPrefere = "Prarie";
+        TerrainPrefere = "Prairie";
         Espacement = 3;
         VitesseCroissance = 0.233;
         BesoinsEnEau = 3.5;
