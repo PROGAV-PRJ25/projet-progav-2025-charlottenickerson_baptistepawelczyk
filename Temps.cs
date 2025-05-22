@@ -51,6 +51,62 @@ public class Temps
         
         // Génération de nouvelles précipitations basées sur la saison actuelle
         precipitations.GenererPrecipitations(saison.GetSaisonActuelle());
+        
+        // Afficher une animation en fonction des conditions météorologiques
+        if (temperature.EstEnGel())
+        {
+            // Animation de neige si gel
+            Console.WriteLine("\nAlerte: Températures glaciales! Protégez vos plantes du gel.");
+            System.Threading.Thread.Sleep(1000);
+            affichage.AfficherAnimationMeteo("neige", 3000);
+        }
+        else if (temperature.EstEnCanicule())
+        {
+            // Animation de soleil intense si canicule
+            Console.WriteLine("\nAlerte: Canicule! Pensez à arroser vos plantes fréquemment.");
+            System.Threading.Thread.Sleep(1000);
+            affichage.AfficherAnimationMeteo("soleil", 3000);
+        }
+        else if (precipitations.EstEnInondation())
+        {
+            // Animation de forte pluie si inondation
+            Console.WriteLine("\nAlerte: Fortes précipitations! Risque d'inondation pour vos cultures.");
+            System.Threading.Thread.Sleep(1000);
+            affichage.AfficherAnimationMeteo("pluie", 3000);
+        }
+        else if (precipitations.EstEnSecheresseExtreme(saison.GetSaisonActuelle(), temperature) || 
+                 precipitations.EstEnSecheresse(saison.GetSaisonActuelle()))
+        {
+            // Animation de vent si sécheresse
+            Console.WriteLine("\nAlerte: Sécheresse! Arrosez vos plantes pour éviter qu'elles ne se dessèchent.");
+            System.Threading.Thread.Sleep(1000);
+            affichage.AfficherAnimationMeteo("vent", 3000);
+        }
+        else
+        {
+            // Déterminer une animation météo aléatoire pour les conditions normales
+            Random random = new Random();
+            int choixAnim = random.Next(100);
+            
+            if (choixAnim < 40) // 40% de chance de pluie légère
+            {
+                affichage.AfficherAnimationMeteo("pluie", 2000);
+            }
+            else if (choixAnim < 70) // 30% de chance de soleil
+            {
+                affichage.AfficherAnimationMeteo("soleil", 2000);
+            }
+            else if (choixAnim < 90) // 20% de chance de vent
+            {
+                affichage.AfficherAnimationMeteo("vent", 2000);
+            }
+            else // 10% de chance d'orage
+            {
+                Console.WriteLine("\nAlerte: Orages prévus!");
+                System.Threading.Thread.Sleep(1000);
+                affichage.AfficherAnimationMeteo("orage", 2000);
+            }
+        }
     }
     
     // Méthode pour obtenir le numéro de semaine actuelle
@@ -199,21 +255,28 @@ public class Temps
         int hauteurConsole = Console.WindowHeight;
         
         // S'assurer que la console est assez grande
-        if (largeurConsole < 60 || hauteurConsole < 30)
+        if (largeurConsole < 80 || hauteurConsole < 30)
         {
             Console.WriteLine("Veuillez agrandir la fenêtre du terminal pour un meilleur affichage.");
-            Console.WriteLine("Taille recommandée: 60x30 ou plus");
+            Console.WriteLine("Taille recommandée: 80x30 ou plus");
             Console.WriteLine("Taille actuelle: " + largeurConsole + "x" + hauteurConsole);
             Console.WriteLine("\nAppuyez sur une touche pour continuer...");
             Console.ReadKey(true);
             return;
         }
         
+        // Mettre à jour l'affichage des plantes dans la grille
+        affichage.MettreAJourAffichagePlantes();
+        
         // Affichage du plateau de jeu
         affichage.AfficherPlateau();
         
         // Affichage du tableau de bord avec les statistiques et récupération de la position finale
         int positionApresTableau = AfficherTableauDeBord(largeurConsole);
+        
+        // Afficher les prévisions météo à côté du tableau de bord
+        int posXPrevisions = Math.Min(largeurConsole - 50, 65);
+        affichage.AfficherPrevisionsMeteo(posXPrevisions, positionApresTableau - 10, temperature, precipitations, saison.GetSaisonActuelle());
         
         // Prévoir de l'espace pour les instructions et la saisie utilisateur
         int espaceNecessaire = positionApresTableau + 15; // 15 lignes pour la vue de parcelle
@@ -228,12 +291,18 @@ public class Temps
         affichage.AfficherParcelleSelectionnee(positionApresTableau);
         
         // Positionner le curseur après tous les éléments affichés
-        int cursorPos = Math.Min(Console.CursorTop + 2, hauteurConsole - 3);
+        int cursorPos = Math.Min(Console.CursorTop + 2, hauteurConsole - 5);
         Console.SetCursorPosition(0, cursorPos);
         
         // Affichage des instructions pour le joueur
-        Console.WriteLine("\nAppuyez sur 'N' ou 'ENTER' pour passer à la semaine suivante...");
-        Console.WriteLine("Appuyez sur 'Q' pour quitter le jeu.");
+        Console.ForegroundColor = ConsoleColor.Cyan;
+        Console.WriteLine("\nCOMMANDES DISPONIBLES:");
+        Console.ResetColor();
+        Console.WriteLine("- Sélectionner une parcelle: entrez les coordonnées 'i,j'");
+        Console.WriteLine("- Actions sur la parcelle sélectionnée:");
+        Console.WriteLine("  1: Arroser   2: Fertiliser   3: Désherber   4: Planter   5: Récolter   6: Examiner");
+        Console.WriteLine("- Passer à la semaine suivante: 'N' ou 'ENTER' ou 'next'");
+        Console.WriteLine("- Quitter le jeu: 'Q'");
     }
     
     // Méthode principale de la boucle de jeu
@@ -252,8 +321,8 @@ public class Temps
             // Attendre l'entrée de l'utilisateur jusqu'à ce qu'il décide de passer au tour suivant
             while (!passerAuTourSuivant && jeuEnCours)
             {
-                Console.Write("Action (coordonnées x,y pour sélectionner une parcelle, N/ENTER pour tour suivant, Q pour quitter): ");
-                string input = Console.ReadLine();
+                Console.Write("Action (coordonnées i,j pour sélectionner une parcelle, action 1-6 pour la parcelle sélectionnée, N/ENTER pour tour suivant, Q pour quitter): ");
+                string? input = Console.ReadLine();
                 
                 // Vérifier si l'utilisateur veut quitter le jeu
                 if (input?.ToUpper() == "Q")
@@ -261,9 +330,18 @@ public class Temps
                     jeuEnCours = false;
                 }
                 // Vérifier si l'utilisateur veut passer au tour suivant
-                else if (string.IsNullOrWhiteSpace(input) || input.ToUpper() == "N")
+                else if (string.IsNullOrWhiteSpace(input) || input.ToUpper() == "N" || input.ToLower() == "next")
                 {
                     passerAuTourSuivant = true;
+                }
+                // Vérifier si l'utilisateur veut effectuer une action sur une parcelle sélectionnée
+                else if (input == "1" || input == "2" || input == "3" || input == "4" || input == "5" || input == "6")
+                {
+                    // Traiter l'action sur la parcelle sélectionnée
+                    affichage.TraiterActionParcelle(input);
+                    
+                    // Réafficher le jeu pour montrer les changements
+                    AfficherJeu();
                 }
                 else
                 {
@@ -287,6 +365,45 @@ public class Temps
             {
                 // Passage à la semaine suivante
                 PasserSemaine();
+                
+                // Faire croître toutes les plantes dans toutes les parcelles
+                FaireCroitrePlantes();
+            }
+        }
+    }
+    
+    // Méthode pour faire croître toutes les plantes
+    private void FaireCroitrePlantes()
+    {
+        Random random = new Random();
+        int largeur = affichage.GetLargeurGrille();
+        int hauteur = affichage.GetHauteurGrille();
+        
+        for (int i = 0; i < hauteur; i++)
+        {
+            for (int j = 0; j < largeur; j++)
+            {
+                // Récupérer la parcelle
+                Parcelle parcelle = affichage.GetParcelle(i, j);
+                
+                // Faire croître la plante de cette parcelle si elle existe
+                if (parcelle.EstPlantee)
+                {
+                    // Ajouter un élément aléatoire: probabilité de 75% de croissance
+                    if (random.Next(100) < 75)
+                    {
+                        parcelle.FaireCroitre();
+                    }
+                }
+                
+                // Mise à jour de l'humidité (diminution naturelle)
+                parcelle.Humidite = Math.Max(0, parcelle.Humidite - random.Next(5, 15));
+                
+                // Mise à jour de la fertilité (diminution lente)
+                if (random.Next(100) < 20) // 20% de chance de diminuer
+                {
+                    parcelle.Fertilite = Math.Max(0, parcelle.Fertilite - random.Next(1, 5));
+                }
             }
         }
     }
