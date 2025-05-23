@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Runtime.InteropServices;
 
 public class Affichage 
 {
@@ -102,142 +103,149 @@ public class Affichage
         }
     }
     
-    public void AfficherPlateau() {
+    public void AfficherPlateau()
+    {
         // Effacer la console avant d'afficher le plateau
         Console.Clear();
-        
+
         // Afficher le titre du jeu centré en haut
         Console.ForegroundColor = ConsoleColor.Cyan;
         int positionTitre = (largeur - titreJeu.Length) / 2;
-        Console.SetCursorPosition(positionTitre, 0);
+        SafeSetCursorPosition(positionTitre, 0);
         Console.WriteLine(titreJeu);
         Console.ResetColor();
 
         // Afficher la météo en haut à droite
         AfficherMeteo(meteoPosX, meteoPosY);
-        
+
         // Marge supérieure
         Console.WriteLine();
-        
-        // Définir la position de départ pour le plateau
+
         int startX = 2;
         int startY = 2;
-        
-        // Nombre de cellules
+
         int cellRows = parcelles.GetLength(0);
         int cellCols = parcelles.GetLength(1);
-        
-        // Largeur totale du plateau
+
         int totalWidth = cellCols * cellWidth + 1;
-        
-        // Dessiner la bordure supérieure
-        Console.SetCursorPosition(startX, startY);
+
+        // Bordure supérieure
+        SafeSetCursorPosition(startX, startY);
         Console.Write("╔");
-        for (int j = 0; j < cellCols; j++) {
+        for (int j = 0; j < cellCols; j++)
+        {
             Console.Write(new string('═', cellWidth - 1));
             if (j < cellCols - 1) Console.Write("╦");
         }
         Console.WriteLine("╗");
-        
-        // Dessiner les cellules
-        for (int i = 0; i < cellRows; i++) {
-            // Dessiner les lignes de contenu des cellules
-            for (int ligne = 0; ligne < cellHeight - 1; ligne++) {
-                Console.SetCursorPosition(startX, startY + 1 + i * cellHeight + ligne);
+
+        // Cellules
+        for (int i = 0; i < cellRows; i++)
+        {
+            for (int ligne = 0; ligne < cellHeight - 1; ligne++)
+            {
+                SafeSetCursorPosition(startX, startY + 1 + i * cellHeight + ligne);
                 Console.Write("║");
-                
-                for (int j = 0; j < cellCols; j++) {
-                    // Contenu de la cellule
+
+                for (int j = 0; j < cellCols; j++)
+                {
                     ConsoleColor bgColor = parcelles[i, j].Couleur;
                     string typeTerrain = parcelles[i, j].Type;
                     char terrainSymbol = terrainSymbols.ContainsKey(typeTerrain) ? terrainSymbols[typeTerrain] : ' ';
-                    
-                    // Différentes lignes pour ajouter des détails visuels
-                    if (ligne == 0) {
-                        // Ligne supérieure: afficher les coordonnées
+
+                    if (ligne == 0)
+                    {
                         Console.BackgroundColor = bgColor;
-                        // Format pour assurer que les coordonnées sont affichées avec une largeur fixe et centrées
                         string coordsDisplay = $"{i},{j}";
                         int padding = cellWidth - 1 - coordsDisplay.Length;
                         int leftPad = padding / 2;
                         int rightPad = padding - leftPad;
                         Console.Write(new string(' ', leftPad) + coordsDisplay + new string(' ', rightPad));
                         Console.BackgroundColor = ConsoleColor.Black;
-                    } else if (ligne == 1) {
-                        // Ligne centrale: afficher le symbole de la plante si elle existe, sinon le symbole du terrain
+                    }
+                    else if (ligne == 1)
+                    {
                         Console.BackgroundColor = bgColor;
-                        
-                        if (parcelles[i, j].EstPlantee) {
-                            // Récupérer le symbole correspondant à l'état de la plante
+
+                        if (parcelles[i, j].EstPlantee)
+                        {
                             char planteSymbol = ' ';
                             string etatPlante = parcelles[i, j].EtatPlante;
-                            
-                            if (planteSymbols.ContainsKey(etatPlante)) {
+
+                            if (planteSymbols.ContainsKey(etatPlante))
                                 planteSymbol = planteSymbols[etatPlante];
-                            }
-                            
-                            // Changer la couleur du texte selon la santé de la plante
-                            if (parcelles[i, j].SantePlante < 30) {
+
+                            if (parcelles[i, j].SantePlante < 30)
                                 Console.ForegroundColor = ConsoleColor.Red;
-                            } else if (parcelles[i, j].SantePlante < 60) {
+                            else if (parcelles[i, j].SantePlante < 60)
                                 Console.ForegroundColor = ConsoleColor.Yellow;
-                            } else {
+                            else
                                 Console.ForegroundColor = ConsoleColor.White;
-                            }
-                            
-                            // S'assurer que la largeur est constante et parfaitement centrée
+
                             string display = planteSymbol.ToString();
                             int padding = cellWidth - 1 - display.Length;
                             int leftPad = padding / 2;
                             int rightPad = padding - leftPad;
                             Console.Write(new string(' ', leftPad) + display + new string(' ', rightPad));
                             Console.ForegroundColor = ConsoleColor.White;
-                        } else {
-                            // S'assurer que la largeur est constante
+                        }
+                        else
+                        {
                             string display = $" {terrainSymbol} ";
                             Console.Write(display.PadLeft((cellWidth - display.Length) / 2 + display.Length).PadRight(cellWidth - 1));
                         }
-                        
+
                         Console.BackgroundColor = ConsoleColor.Black;
                     }
-                    
-                    // S'assurer que chaque colonne a exactement la même largeur
-                    if (j < cellCols - 1) {
+
+                    if (j < cellCols - 1)
                         Console.Write("║");
-                    }
                 }
                 Console.WriteLine("║");
             }
-            
-            // Dessiner la bordure entre les lignes de cellules
-            if (i < cellRows - 1) {
-                Console.SetCursorPosition(startX, startY + (i + 1) * cellHeight);
+
+            if (i < cellRows - 1)
+            {
+                SafeSetCursorPosition(startX, startY + (i + 1) * cellHeight);
                 Console.Write("╠");
-                for (int j = 0; j < cellCols; j++) {
+                for (int j = 0; j < cellCols; j++)
+                {
                     Console.Write(new string('═', cellWidth - 1));
                     if (j < cellCols - 1) Console.Write("╬");
                 }
                 Console.WriteLine("╣");
             }
         }
-        
-        // Dessiner la bordure inférieure
-        Console.SetCursorPosition(startX, startY + cellRows * cellHeight);
+
+        // Bordure inférieure
+        SafeSetCursorPosition(startX, startY + cellRows * cellHeight);
         Console.Write("╚");
-        for (int j = 0; j < cellCols; j++) {
+        for (int j = 0; j < cellCols; j++)
+        {
             Console.Write(new string('═', cellWidth - 1));
             if (j < cellCols - 1) Console.Write("╩");
         }
         Console.WriteLine("╝");
-        
-        // Afficher la légende des terrains
-        AfficherLegende(startX, startY + cellRows * cellHeight + 2);
-        
-        // Afficher les instructions pour la sélection des parcelles
-        Console.SetCursorPosition(startX, startY + cellRows * cellHeight + terrainColors.Count + 4);
+
+        // Légende
+        int legendeY = startY + cellRows * cellHeight + 2;
+        AfficherLegende(startX, legendeY);
+
+        // Instructions de saisie
+        int instructionY = legendeY + terrainColors.Count + 2;
+        SafeSetCursorPosition(startX, instructionY);
         Console.ForegroundColor = ConsoleColor.White;
         Console.WriteLine("Sélectionnez une parcelle (entrez les coordonnées i,j séparées par une virgule) ou 'next' pour continuer");
         Console.ResetColor();
+    }
+
+    // Méthode utilitaire pour éviter ArgumentOutOfRangeException
+    private void SafeSetCursorPosition(int x, int y)
+    {
+        if (y >= Console.BufferHeight)
+            if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
+                Console.SetBufferSize(Console.BufferWidth, y + 5);
+        Console.SetCursorPosition(x, y);
     }
     
     // Méthode pour afficher la légende des types de terrain
@@ -247,7 +255,7 @@ public class Affichage
         Console.ForegroundColor = ConsoleColor.Cyan;
         Console.WriteLine("LÉGENDE DES TERRAINS:");
         Console.ResetColor();
-        
+
         int ligne = 1;
         foreach (var terrain in terrainSymbols)
         {
@@ -306,64 +314,75 @@ public class Affichage
     {
         if (parcelleSelectionnee != null)
         {
+            int largeurConsole = Console.WindowWidth;
+            int hauteurConsole = Console.WindowHeight;
+
             // Calculer la position pour la vue détaillée
             int cellRows = parcelles.GetLength(0);
             int plateauHeight = cellRows * cellHeight; // Hauteur du contenu du plateau
             int legendHeight = terrainSymbols.Count + 2; // Hauteur approximative de la légende
             int instructionsHeight = 3; // Hauteur approximative des instructions
             
-            // La vue détaillée sera affichée sous le plateau, la légende et les instructions
-            // startY (2) + plateauHeight + 2 (bordures) + 1 (espace) + legendHeight + 1 (espace) + instructionsHeight + 1 (espace)
+            // Calcul de la position Y : sous plateau + bordures + espaces + légende + instructions
             vueDetailleePosY = 2 + plateauHeight + 2 + 1 + legendHeight + 1 + instructionsHeight + 1;
-            
-            // Centrer horizontalement
-            int largeurParcelleDetails = 45; // Largeur pour le cadre des détails
-            vueDetailleePosX = (largeur - largeurParcelleDetails) / 2;
-            
-            // Hauteur approximative de la boîte de détails de la parcelle
-            int hauteurParcelleDetails = 10; // Ajusté car AfficherVisuelParcelle est retiré
-            
-            // Effacer la zone où les détails de la parcelle seront affichés
-            EffacerZone(vueDetailleePosX - 2, vueDetailleePosY - 2, largeurParcelleDetails + 4, hauteurParcelleDetails + 4); 
 
-            // Afficher un cadre spécial pour indiquer la sélection
-            Console.SetCursorPosition(vueDetailleePosX - 2, vueDetailleePosY - 1); // Ajusté pour le titre
+            // Largeur et hauteur de la boîte détails
+            int largeurParcelleDetails = 45;
+            int hauteurParcelleDetails = 10;
+
+            // Centrage horizontal, clamp pour ne pas dépasser console
+            vueDetailleePosX = Math.Max(0, (largeurConsole - largeurParcelleDetails) / 2);
+
+            // Clamp vertical pour ne pas dépasser console
+            if (vueDetailleePosY + hauteurParcelleDetails + 6 > hauteurConsole)
+            {
+                // Réduire la position Y si trop bas
+                vueDetailleePosY = Math.Max(0, hauteurConsole - hauteurParcelleDetails - 6);
+            }
+
+            // Effacer la zone autour des détails (cadre + actions)
+            int zoneEffacementLargeur = largeurParcelleDetails + 4;
+            int zoneEffacementHauteur = hauteurParcelleDetails + 12; // Détails + actions + espaces
+            int zoneEffacementPosX = Math.Max(0, vueDetailleePosX - 2);
+            int zoneEffacementPosY = Math.Max(0, vueDetailleePosY - 2);
+
+            EffacerZone(zoneEffacementPosX, zoneEffacementPosY, zoneEffacementLargeur, zoneEffacementHauteur);
+
+            // Affichage cadre détails
+            Console.SetCursorPosition(zoneEffacementPosX, vueDetailleePosY - 1);
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("╔═══════ DÉTAILS DE LA PARCELLE SÉLECTIONNÉE ═══════╗");
-            
-            // Afficher les informations de base
-            Console.SetCursorPosition(vueDetailleePosX, vueDetailleePosY +1); // Ajusté pour être dans le cadre
+
+            // Affichage des infos basiques dans cadre
+            Console.SetCursorPosition(vueDetailleePosX, vueDetailleePosY + 1);
             Console.WriteLine($"Position: [{parcelleSelectionnee.Row}, {parcelleSelectionnee.Col}]");
-            
+
             Console.SetCursorPosition(vueDetailleePosX, vueDetailleePosY + 2);
             Console.ForegroundColor = terrainColors[parcelleSelectionnee.Type];
             Console.Write($"Terrain: {parcelleSelectionnee.Type} ");
             Console.Write(terrainSymbols[parcelleSelectionnee.Type]);
             Console.ResetColor();
-            
-            // Afficher les barres de progression pour fertilité et humidité
+
+            // Barres de progression
             AfficherBarreProgression(vueDetailleePosX, vueDetailleePosY + 4, "Fertilité", parcelleSelectionnee.Fertilite, 100, ConsoleColor.Green);
             AfficherBarreProgression(vueDetailleePosX, vueDetailleePosY + 6, "Humidité", parcelleSelectionnee.Humidite, 100, ConsoleColor.Blue);
-            
-            // Fermer le cadre des détails
-            Console.SetCursorPosition(vueDetailleePosX - 2, vueDetailleePosY + 10); // Position après les barres de progression
+
+            // Fin cadre détails
+            Console.SetCursorPosition(zoneEffacementPosX, vueDetailleePosY + hauteurParcelleDetails);
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("╚════════════════════════════════════════════════════╝");
             Console.ResetColor();
-            
-            // Ajouter un espace entre les détails et les actions
-            int actionsPosY = vueDetailleePosY + 12; // 2 lignes après la fermeture du cadre des détails
-            
-            // Afficher une nouvelle section pour les actions disponibles
-            Console.SetCursorPosition(vueDetailleePosX - 2, actionsPosY);
+
+            // Position actions (2 lignes après cadre détails)
+            int actionsPosY = vueDetailleePosY + hauteurParcelleDetails + 2;
+
+            Console.SetCursorPosition(zoneEffacementPosX, actionsPosY);
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("╔═══════════ ACTIONS DISPONIBLES ════════════╗");
-            
-            // Afficher les actions possibles dans un nouveau cadre séparé
+
             AfficherActionsDisponibles(vueDetailleePosX, actionsPosY + 2);
-            
-            // Fermer le cadre des actions
-            Console.SetCursorPosition(vueDetailleePosX - 2, actionsPosY + 6);
+
+            Console.SetCursorPosition(zoneEffacementPosX, actionsPosY + 6);
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("╚════════════════════════════════════════════╝");
             Console.ResetColor();
@@ -473,6 +492,17 @@ public class Affichage
     // Méthode pour effacer une zone de la console
     private void EffacerZone(int posX, int posY, int largeur, int hauteur)
     {
+        int largeurConsole = Console.WindowWidth;
+        int hauteurConsole = Console.WindowHeight;
+
+        // Clamp posX et posY dans les limites de la console
+        posX = Math.Max(0, Math.Min(posX, largeurConsole - 1));
+        posY = Math.Max(0, Math.Min(posY, hauteurConsole - 1));
+
+        // Ajuster largeur et hauteur pour ne pas dépasser la console
+        largeur = Math.Min(largeur, largeurConsole - posX);
+        hauteur = Math.Min(hauteur, hauteurConsole - posY);
+
         for (int i = 0; i < hauteur; i++)
         {
             Console.SetCursorPosition(posX, posY + i);

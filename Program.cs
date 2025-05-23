@@ -189,6 +189,7 @@ namespace projstartover
             Console.WriteLine("║               SIMULATEUR DE POTAGER                   ║");
             Console.WriteLine("╚═══════════════════════════════════════════════════════╝");
             Console.ResetColor();
+            Console.WriteLine("\nCONSEIL VIVEMENT RECOMMANDÉ : JOUEZ AVEC LA FENÊTRE DU TERMINAL EN PLEIN ÉCRAN DANS VISUAL STUDIO CODE");
             Console.WriteLine("\nBienvenue dans votre simulateur de potager!");
             Console.WriteLine("Vous allez pouvoir cultiver différentes plantes et gérer votre jardin.");
             Console.WriteLine("\nCaractéristiques:");

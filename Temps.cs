@@ -122,139 +122,105 @@ public class Temps
     }
     
     // Méthode pour afficher le tableau de bord avec les statistiques
-    private int AfficherTableauDeBord(int largeurConsole)
+    private int AfficherTableauDeBord(int posX, int posY, int largeurConsole)
     {
         // Largeur du tableau de bord (légèrement plus petit que la largeur de la console)
         int largeurTableau = Math.Min(60, largeurConsole - 4);
         
-        // Calcul de la marge pour centrer le tableau
-        int marge = (largeurConsole - largeurTableau) / 2;
+        // Note : ici on ignore le centrage horizontal, on fixe la position posX passée en paramètre
+        
+        int ligne = posY;
         
         // Ligne du haut du tableau
-        Console.WriteLine();
-        Console.Write(new string(' ', marge));
+        Console.SetCursorPosition(posX, ligne++);
         Console.Write("┌" + new string('─', largeurTableau - 2) + "┐");
-        Console.WriteLine();
         
         // Ligne du titre "Tableau de bord"
         string titre = "TABLEAU DE BORD";
         int margeTitre = (largeurTableau - titre.Length - 2) / 2;
-        Console.Write(new string(' ', marge));
+        Console.SetCursorPosition(posX, ligne++);
         Console.Write("│" + new string(' ', margeTitre) + titre + new string(' ', largeurTableau - 2 - titre.Length - margeTitre) + "│");
-        Console.WriteLine();
         
         // Ligne de séparation
-        Console.Write(new string(' ', marge));
+        Console.SetCursorPosition(posX, ligne++);
         Console.Write("├" + new string('─', largeurTableau - 2) + "┤");
-        Console.WriteLine();
         
         // Ligne pour la semaine
         string infoSemaine = $"Semaine: {semaineActuelle}";
         int margeSemaine = (largeurTableau - infoSemaine.Length - 2) / 2;
-        Console.Write(new string(' ', marge));
+        Console.SetCursorPosition(posX, ligne++);
         Console.Write("│" + new string(' ', margeSemaine) + infoSemaine + new string(' ', largeurTableau - 2 - infoSemaine.Length - margeSemaine) + "│");
-        Console.WriteLine();
         
         // Ligne pour la saison
         string infoSaison = $"Saison: {saison.GetNomSaison()}";
         int margeSaison = (largeurTableau - infoSaison.Length - 2) / 2;
-        Console.Write(new string(' ', marge));
+        Console.SetCursorPosition(posX, ligne++);
         Console.Write("│" + new string(' ', margeSaison) + infoSaison + new string(' ', largeurTableau - 2 - infoSaison.Length - margeSaison) + "│");
-        Console.WriteLine();
         
         // Ligne pour la température avec couleur conditionnelle
         string tempText = temperature.GetTemperatureString();
         string infoTemp = $"Température: {tempText}";
         int margeTemp = (largeurTableau - infoTemp.Length - 2) / 2;
         
-        // Affichage de la ligne de température complète avec centrage
-        Console.Write(new string(' ', marge));
+        Console.SetCursorPosition(posX, ligne);
         Console.Write("│" + new string(' ', margeTemp));
         
         // Texte avant la valeur de température
         Console.Write("Température: ");
         
-        // Appliquer les couleurs en fonction de la température
         ConsoleColor couleurOriginale = Console.ForegroundColor;
         
         if (temperature.EstEnGel())
-        {
-            // Bleu pour le gel
             Console.ForegroundColor = ConsoleColor.Blue;
-        }
         else if (temperature.EstEnCanicule())
-        {
-            // Rouge pour la canicule
             Console.ForegroundColor = ConsoleColor.Red;
-        }
         
-        // Écrire l'information de température avec la couleur appropriée
         Console.Write(tempText);
-        
-        // Restaurer la couleur d'origine
         Console.ForegroundColor = couleurOriginale;
         
-        // Compléter la ligne
         Console.Write(new string(' ', largeurTableau - 2 - infoTemp.Length - margeTemp) + "│");
-        Console.WriteLine();
+        ligne++;
         
         // Ligne pour les précipitations avec couleur conditionnelle
         string precipText = precipitations.GetPrecipitationsString(saison.GetSaisonActuelle(), temperature);
         string infoPrecip = $"Précipitations: {precipText}";
         int margePrecip = (largeurTableau - infoPrecip.Length - 2) / 2;
         
-        // Affichage de la ligne de précipitations complète avec centrage
-        Console.Write(new string(' ', marge));
+        Console.SetCursorPosition(posX, ligne);
         Console.Write("│" + new string(' ', margePrecip));
         
-        // Texte avant la valeur de précipitations
         Console.Write("Précipitations: ");
         
-        // Appliquer les couleurs en fonction des précipitations
         Saison.TypeSaison saisonActuelle = saison.GetSaisonActuelle();
         
         if (precipitations.EstEnSecheresseExtreme(saisonActuelle, temperature) || 
             precipitations.EstEnSecheresse(saisonActuelle))
-        {
-            // Rouge pour la sécheresse
             Console.ForegroundColor = ConsoleColor.Red;
-        }
         else if (precipitations.EstEnInondation())
-        {
-            // Bleu pour l'inondation
             Console.ForegroundColor = ConsoleColor.Blue;
-        }
         
-        // Écrire l'information de précipitations avec la couleur appropriée
         Console.Write(precipText);
-        
-        // Restaurer la couleur d'origine
         Console.ForegroundColor = couleurOriginale;
         
-        // Compléter la ligne
         Console.Write(new string(' ', largeurTableau - 2 - infoPrecip.Length - margePrecip) + "│");
-        Console.WriteLine();
+        ligne++;
         
         // Ligne du bas
-        Console.Write(new string(' ', marge));
+        Console.SetCursorPosition(posX, ligne++);
         Console.Write("└" + new string('─', largeurTableau - 2) + "┘");
-        Console.WriteLine();
         
         // Retourner la position Y actuelle du curseur après l'affichage du tableau de bord
-        return Console.CursorTop;
+        return ligne;
     }
     
     // Méthode pour afficher le jeu
     public void AfficherJeu()
     {
-        // Effacement de la console
         Console.Clear();
         
-        // Récupération de la largeur de la console
         int largeurConsole = Console.WindowWidth;
         int hauteurConsole = Console.WindowHeight;
         
-        // S'assurer que la console est assez grande
         if (largeurConsole < 80 || hauteurConsole < 30)
         {
             Console.WriteLine("Veuillez agrandir la fenêtre du terminal pour un meilleur affichage.");
@@ -265,44 +231,45 @@ public class Temps
             return;
         }
         
-        // Mettre à jour l'affichage des plantes dans la grille
         affichage.MettreAJourAffichagePlantes();
-        
-        // Affichage du plateau de jeu
         affichage.AfficherPlateau();
         
-        // Affichage du tableau de bord avec les statistiques et récupération de la position finale
-        int positionApresTableau = AfficherTableauDeBord(largeurConsole);
-        
-        // Afficher les prévisions météo à côté du tableau de bord
+        int positionApresTableau = AfficherTableauDeBord(Console.WindowWidth - 80, 3, largeurConsole);
         int posXPrevisions = Math.Min(largeurConsole - 50, 65);
-        affichage.AfficherPrevisionsMeteo(posXPrevisions, positionApresTableau - 10, temperature, precipitations, saison.GetSaisonActuelle());
+        affichage.AfficherPrevisionsMeteo(Console.WindowWidth - 80, 14, temperature, precipitations, saison.GetSaisonActuelle());
         
-        // Prévoir de l'espace pour les instructions et la saisie utilisateur
-        int espaceNecessaire = positionApresTableau + 15; // 15 lignes pour la vue de parcelle
-        
-        // Réduire la taille de la vue de parcelle si nécessaire
+        int espaceNecessaire = positionApresTableau + 15;
         if (espaceNecessaire > hauteurConsole - 5)
         {
             positionApresTableau = Math.Min(positionApresTableau, hauteurConsole - 20);
         }
         
-        // Affichage de la parcelle sélectionnée en dessous du tableau de bord
         affichage.AfficherParcelleSelectionnee(positionApresTableau);
         
-        // Positionner le curseur après tous les éléments affichés
-        int cursorPos = Math.Min(Console.CursorTop + 2, hauteurConsole - 5);
-        Console.SetCursorPosition(0, cursorPos);
+        // Positionner le curseur 5 lignes avant le bas pour afficher les commandes
+        int ligneCommandes = hauteurConsole - 6;  // -1 pour ligne, -5 pour marge
         
-        // Affichage des instructions pour le joueur
+        if (ligneCommandes < Console.CursorTop + 2)
+        {
+            ligneCommandes = Console.CursorTop + 2; // ne pas remonter le curseur par accident
+        }
+        
+        Console.SetCursorPosition(0, ligneCommandes);
+        
         Console.ForegroundColor = ConsoleColor.Cyan;
-        Console.WriteLine("\nCOMMANDES DISPONIBLES:");
+        Console.WriteLine("COMMANDES DISPONIBLES:");
         Console.ResetColor();
         Console.WriteLine("- Sélectionner une parcelle: entrez les coordonnées 'i,j'");
         Console.WriteLine("- Actions sur la parcelle sélectionnée:");
         Console.WriteLine("  1: Arroser   2: Fertiliser   3: Désherber   4: Planter   5: Récolter   6: Examiner");
         Console.WriteLine("- Passer à la semaine suivante: 'N' ou 'ENTER' ou 'next'");
         Console.WriteLine("- Quitter le jeu: 'Q'");
+        
+        int ligne = ligneCommandes + 7;
+        if (ligne >= Console.WindowHeight)
+            ligne = Console.WindowHeight - 1;
+        Console.SetCursorPosition(0, ligne);
+
     }
     
     // Méthode principale de la boucle de jeu
