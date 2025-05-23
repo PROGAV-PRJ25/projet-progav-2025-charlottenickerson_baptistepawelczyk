@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1672px" preserveAspectRatio="none" style="width:5190px;height:1672px;background:#FFFFFF;" version="1.1" viewBox="0 0 5190 1672" width="5190px" zoomAndPan="magnify"><defs/><g><rect fill="#FFFFFF" height="26.2969" id="_title" rx="3.5" ry="3.5" style="stroke:none;stroke-width:1.0;" width="381" x="2397.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="371" x="2402.5" y="22.9951">Diagramme de Classes - Simulateur de Potager</text><!--MD5=[2c2e2644034c00788261e03c85b06837]
+cluster Core--><g id="cluster_Core"><path d="M2477.5,435.2969 L2514.5,435.2969 A5.25,5.25 0 0 1 2518,438.7969 L2525,457.5938 L3323.5,457.5938 A3.5,3.5 0 0 1 3327,461.0938 L3327,1277.2969 A3.5,3.5 0 0 1 3323.5,1280.7969 L2477.5,1280.7969 A3.5,3.5 0 0 1 2474,1277.2969 L2474,438.7969 A3.5,3.5 0 0 1 2477.5,435.2969 " fill="none" style="stroke:#696969;stroke-width:1.0;"/><line style="stroke:#696969;stroke-width:1.0;" x1="2474" x2="2525" y1="457.5938" y2="457.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="38" x="2478" y="450.292">Core</text></g><!--MD5=[ad47408e1d99afd1001ff8925d063d5c]
+cluster GestionTempsEtEnvironnement--><g id="cluster_GestionTempsEtEnvironnement"><path d="M3858.5,1080.2969 L4105.5,1080.2969 A5.25,5.25 0 0 1 4109,1083.7969 L4116,1102.5938 L5179.5,1102.5938 A3.5,3.5 0 0 1 5183,1106.0938 L5183,1661.7969 A3.5,3.5 0 0 1 5179.5,1665.2969 L3858.5,1665.2969 A3.5,3.5 0 0 1 3855,1661.7969 L3855,1083.7969 A3.5,3.5 0 0 1 3858.5,1080.2969 " fill="none" style="stroke:#696969;stroke-width:1.0;"/><line style="stroke:#696969;stroke-width:1.0;" x1="3855" x2="4116" y1="1102.5938" y2="1102.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="248" x="3859" y="1095.292">GestionTempsEtEnvironnement</text></g><!--MD5=[0bb57a817617a1a7e7907dccc91a6b99]
+cluster Plantes--><g id="cluster_Plantes"><path d="M1591.5,1128.7969 L1648.5,1128.7969 A5.25,5.25 0 0 1 1652,1132.2969 L1659,1151.0938 L2446.5,1151.0938 A3.5,3.5 0 0 1 2450,1154.5938 L2450,1451.2969 A3.5,3.5 0 0 1 2446.5,1454.7969 L1591.5,1454.7969 A3.5,3.5 0 0 1 1588,1451.2969 L1588,1132.2969 A3.5,3.5 0 0 1 1591.5,1128.7969 " fill="none" style="stroke:#696969;stroke-width:1.0;"/><line style="stroke:#696969;stroke-width:1.0;" x1="1588" x2="1659" y1="1151.0938" y2="1151.0938"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="58" x="1592" y="1143.792">Plantes</text></g><!--MD5=[472917e91c6b1009dba8cc78fd4afdee]
+cluster Terrains--><g id="cluster_Terrains"><path d="M3477.5,1149.2969 L3542.5,1149.2969 A5.25,5.25 0 0 1 3546,1152.7969 L3553,1171.5938 L3827.5,1171.5938 A3.5,3.5 0 0 1 3831,1175.0938 L3831,1228.7969 A3.5,3.5 0 0 1 3827.5,1232.2969 L3477.5,1232.2969 A3.5,3.5 0 0 1 3474,1228.7969 L3474,1152.7969 A3.5,3.5 0 0 1 3477.5,1149.2969 " fill="none" style="stroke:#696969;stroke-width:1.0;"/><line style="stroke:#696969;stroke-width:1.0;" x1="3474" x2="3553" y1="1171.5938" y2="1171.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="66" x="3478" y="1164.292">Terrains</text></g><!--MD5=[48af8b122989374cfeb4f2f5a1ed5dec]
+cluster Systeme--><g id="cluster_Systeme"><path d="M2477.5,43.2969 L2544.5,43.2969 A5.25,5.25 0 0 1 2548,46.7969 L2555,65.5938 L3641.5,65.5938 A3.5,3.5 0 0 1 3645,69.0938 L3645,382.7969 A3.5,3.5 0 0 1 3641.5,386.2969 L2477.5,386.2969 A3.5,3.5 0 0 1 2474,382.7969 L2474,46.7969 A3.5,3.5 0 0 1 2477.5,43.2969 " fill="none" style="stroke:#696969;stroke-width:1.0;"/><line style="stroke:#696969;stroke-width:1.0;" x1="2474" x2="2555" y1="65.5938" y2="65.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="68" x="2478" y="58.292">Systeme</text></g><!--MD5=[99b31deea5d7419a569cd5090bf83263]
+cluster System--><g id="cluster_System"><path d="M3672.5,67.7969 L3729.5,67.7969 A5.25,5.25 0 0 1 3733,71.2969 L3740,90.0938 L3799.5,90.0938 A3.5,3.5 0 0 1 3803,93.5938 L3803,147.2969 A3.5,3.5 0 0 1 3799.5,150.7969 L3672.5,150.7969 A3.5,3.5 0 0 1 3669,147.2969 L3669,71.2969 A3.5,3.5 0 0 1 3672.5,67.7969 " fill="none" style="stroke:#696969;stroke-width:1.0;"/><line style="stroke:#696969;stroke-width:1.0;" x1="3669" x2="3740" y1="90.0938" y2="90.0938"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="58" x="3673" y="82.792">System</text></g><!--MD5=[0934749b858c7b5ae01f0218bc972b8d]
+cluster ModesDeJeu--><g id="cluster_ModesDeJeu"><path d="M9.5,222.2969 L105.5,222.2969 A5.25,5.25 0 0 1 109,225.7969 L116,244.5938 L2446.5,244.5938 A3.5,3.5 0 0 1 2450,248.0938 L2450,587.7969 A3.5,3.5 0 0 1 2446.5,591.2969 L9.5,591.2969 A3.5,3.5 0 0 1 6,587.7969 L6,225.7969 A3.5,3.5 0 0 1 9.5,222.2969 " fill="none" style="stroke:#696969;stroke-width:1.0;"/><line style="stroke:#696969;stroke-width:1.0;" x1="6" x2="116" y1="244.5938" y2="244.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="97" x="10" y="237.292">ModesDeJeu</text></g><!--MD5=[38f7377f82c9f3c5bb06d3877ab1440b]
+class Plante--><g id="elem_Plante"><rect codeLine="7" fill="#F1F1F1" height="292.4531" id="Plante" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.5;" width="442" x="2490" y="725.2969"/><ellipse cx="2685.25" cy="741.2969" fill="#A9DCDF" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M2685.3594,736.6406 L2684.2031,741.7188 L2686.5313,741.7188 L2685.3594,736.6406 Z M2683.875,734.4063 L2686.8594,734.4063 L2690.2188,746.7969 L2687.7656,746.7969 L2687,743.7344 L2683.7188,743.7344 L2682.9688,746.7969 L2680.5313,746.7969 L2683.875,734.4063 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="43" x="2705.75" y="746.1436">Plante</text><line style="stroke:#181818;stroke-width:0.5;" x1="2491" x2="2931" y1="757.2969" y2="757.2969"/><ellipse cx="2501" cy="770.9453" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="2510" y="774.292">Nom : string</text><ellipse cx="2501" cy="787.2422" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="2510" y="790.5889">EstVivace : bool</text><ellipse cx="2501" cy="803.5391" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="143" x="2510" y="806.8857">EstComestible : bool</text><polygon fill="none" points="2501,814.8359,2505,818.8359,2501,822.8359,2497,818.8359" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="286" x="2510" y="823.1826">SaisonsSemis : List&lt;Saison.TypeSaison&gt;</text><polygon fill="none" points="2501,831.1328,2505,835.1328,2501,839.1328,2497,835.1328" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="193" x="2510" y="839.4795">TerrainPrefere : TypeTerrain</text><polygon fill="none" points="2501,847.4297,2505,851.4297,2501,855.4297,2497,851.4297" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="189" x="2510" y="855.7764">VitesseCroissance : double</text><polygon fill="none" points="2501,863.7266,2505,867.7266,2501,871.7266,2497,867.7266" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="2510" y="872.0732">BesoinEau : int</text><polygon fill="none" points="2501,880.0234,2505,884.0234,2501,888.0234,2497,884.0234" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="153" x="2510" y="888.3701">BesoinLuminosite : int</text><polygon fill="none" points="2501,896.3203,2505,900.3203,2501,904.3203,2497,900.3203" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="249" x="2510" y="904.667">TemperatureIdeale : Tuple&lt;int, int&gt;</text><ellipse cx="2501" cy="917.6172" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="2510" y="920.9639">Sante : int</text><ellipse cx="2501" cy="933.9141" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="2510" y="937.2607">Hauteur : double</text><ellipse cx="2501" cy="950.2109" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="2510" y="953.5576">Age : int</text><line style="stroke:#181818;stroke-width:0.5;" x1="2491" x2="2931" y1="960.8594" y2="960.8594"/><ellipse cx="2501" cy="974.5078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="408" x="2510" y="977.8545">abstract Croitre(conditions : ConditionsEnvironnementales)</text><ellipse cx="2501" cy="990.8047" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="311" x="2510" y="994.1514">abstract GetRepresentationConsole() : string</text><ellipse cx="2501" cy="1007.1016" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="416" x="2510" y="1010.4482">DoitMourir(conditions : ConditionsEnvironnementales) : bool</text></g><!--MD5=[96cdea1afac70625266c09042de03e1a]
+class Terrain--><g id="elem_Terrain"><rect codeLine="25" fill="#F1F1F1" height="162.0781" id="Terrain" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.5;" width="345" x="2966.5" y="790.2969"/><ellipse cx="3110.75" cy="806.2969" fill="#A9DCDF" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M3110.8594,801.6406 L3109.7031,806.7188 L3112.0313,806.7188 L3110.8594,801.6406 Z M3109.375,799.4063 L3112.3594,799.4063 L3115.7188,811.7969 L3113.2656,811.7969 L3112.5,808.7344 L3109.2188,808.7344 L3108.4688,811.7969 L3106.0313,811.7969 L3109.375,799.4063 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="48" x="3131.25" y="811.1436">Terrain</text><line style="stroke:#181818;stroke-width:0.5;" x1="2967.5" x2="3310.5" y1="822.2969" y2="822.2969"/><ellipse cx="2977.5" cy="835.9453" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="2986.5" y="839.292">Type : string</text><polygon fill="none" points="2977.5,847.2422,2981.5,851.2422,2977.5,855.2422,2973.5,851.2422" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="170" x="2986.5" y="855.5889">TypeDeSol : TypeTerrain</text><ellipse cx="2977.5" cy="868.5391" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="2986.5" y="871.8857">Fertilite : double</text><polygon fill="none" points="2977.5,879.8359,2981.5,883.8359,2977.5,887.8359,2973.5,883.8359" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="149" x="2986.5" y="888.1826">HumiditeMax : double</text><polygon fill="none" points="2977.5,896.1328,2981.5,900.1328,2977.5,904.1328,2973.5,900.1328" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="123" x="2986.5" y="904.4795">Drainage : double</text><line style="stroke:#181818;stroke-width:0.5;" x1="2967.5" x2="3310.5" y1="911.7813" y2="911.7813"/><ellipse cx="2977.5" cy="925.4297" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="226" x="2986.5" y="928.7764">abstract GetDescription() : string</text><ellipse cx="2977.5" cy="941.7266" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="319" x="2986.5" y="945.0732">AppliquerPrecipitations(quantitePluie : double)</text></g><!--MD5=[e38c9306795211f15f991db9be308eef]
+class Parcelle--><g id="elem_Parcelle"><rect codeLine="35" fill="#F1F1F1" height="178.375" id="Parcelle" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.5;" width="407" x="2612.5" y="470.2969"/><ellipse cx="2784.75" cy="486.2969" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M2787.7188,491.9375 Q2787.1406,492.2344 2786.5,492.375 Q2785.8594,492.5313 2785.1563,492.5313 Q2782.6563,492.5313 2781.3281,490.8906 Q2780.0156,489.2344 2780.0156,486.1094 Q2780.0156,482.9844 2781.3281,481.3281 Q2782.6563,479.6719 2785.1563,479.6719 Q2785.8594,479.6719 2786.5,479.8281 Q2787.1563,479.9844 2787.7188,480.2813 L2787.7188,483 Q2787.0938,482.4219 2786.5,482.1563 Q2785.9063,481.875 2785.2813,481.875 Q2783.9375,481.875 2783.25,482.9531 Q2782.5625,484.0156 2782.5625,486.1094 Q2782.5625,488.2031 2783.25,489.2813 Q2783.9375,490.3438 2785.2813,490.3438 Q2785.9063,490.3438 2786.5,490.0781 Q2787.0938,489.7969 2787.7188,489.2188 L2787.7188,491.9375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="2805.25" y="491.1436">Parcelle</text><line style="stroke:#181818;stroke-width:0.5;" x1="2613.5" x2="3018.5" y1="502.2969" y2="502.2969"/><ellipse cx="2623.5" cy="515.9453" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="39" x="2632.5" y="519.292">X : int</text><ellipse cx="2623.5" cy="532.2422" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="39" x="2632.5" y="535.5889">Y : int</text><ellipse cx="2623.5" cy="548.5391" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122" x="2632.5" y="551.8857">Humidite : double</text><ellipse cx="2623.5" cy="564.8359" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="2632.5" y="568.1826">Fertilite : double</text><ellipse cx="2623.5" cy="581.1328" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="2632.5" y="584.4795">EstPlantee : bool</text><line style="stroke:#181818;stroke-width:0.5;" x1="2613.5" x2="3018.5" y1="591.7813" y2="591.7813"/><ellipse cx="2623.5" cy="605.4297" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="258" x="2632.5" y="608.7764">Planter(nouvellePlante : Plante) : bool</text><ellipse cx="2623.5" cy="621.7266" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="2632.5" y="625.0732">Recolter()</text><ellipse cx="2623.5" cy="638.0234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="381" x="2632.5" y="641.3701">FaireCroitre(conditions : ConditionsEnvironnementales)</text></g><!--MD5=[b276896327967b4ab6a6f456a1570d98]
+class ConditionsEnvironnementales--><g id="elem_ConditionsEnvironnementales"><rect codeLine="46" fill="#F1F1F1" height="129.4844" id="ConditionsEnvironnementales" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.5;" width="396" x="2513" y="1135.7969"/><ellipse cx="2603.25" cy="1151.7969" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M2606.2188,1157.4375 Q2605.6406,1157.7344 2605,1157.875 Q2604.3594,1158.0313 2603.6563,1158.0313 Q2601.1563,1158.0313 2599.8281,1156.3906 Q2598.5156,1154.7344 2598.5156,1151.6094 Q2598.5156,1148.4844 2599.8281,1146.8281 Q2601.1563,1145.1719 2603.6563,1145.1719 Q2604.3594,1145.1719 2605,1145.3281 Q2605.6563,1145.4844 2606.2188,1145.7813 L2606.2188,1148.5 Q2605.5938,1147.9219 2605,1147.6563 Q2604.4063,1147.375 2603.7813,1147.375 Q2602.4375,1147.375 2601.75,1148.4531 Q2601.0625,1149.5156 2601.0625,1151.6094 Q2601.0625,1153.7031 2601.75,1154.7813 Q2602.4375,1155.8438 2603.7813,1155.8438 Q2604.4063,1155.8438 2605,1155.5781 Q2605.5938,1155.2969 2606.2188,1154.7188 L2606.2188,1157.4375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="207" x="2623.75" y="1156.6436">ConditionsEnvironnementales</text><line style="stroke:#181818;stroke-width:0.5;" x1="2514" x2="2908" y1="1167.7969" y2="1167.7969"/><ellipse cx="2524" cy="1181.4453" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="248" x="2533" y="1184.792">TemperatureActuelle : Temperature</text><ellipse cx="2524" cy="1197.7422" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="237" x="2533" y="1201.0889">NiveauPrecipitation : Precipitations</text><ellipse cx="2524" cy="1214.0391" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="105" x="2533" y="1217.3857">Luminosite : int</text><line style="stroke:#181818;stroke-width:0.5;" x1="2514" x2="2908" y1="1224.6875" y2="1224.6875"/><ellipse cx="2524" cy="1238.3359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="370" x="2533" y="1241.6826">ConditionsOptimalesPourPlante(plante : Plante) : bool</text><ellipse cx="2524" cy="1254.6328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="194" x="2533" y="1257.9795">EstTempeteViolente() : bool</text></g><!--MD5=[da42bf30d7ec68e19134ecb859bc016f]
+class Temps--><g id="elem_Temps"><rect codeLine="56" fill="#F1F1F1" height="96.8906" id="Temps" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.5;" width="300" x="4180" y="1151.7969"/><ellipse cx="4301.75" cy="1167.7969" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M4304.7188,1173.4375 Q4304.1406,1173.7344 4303.5,1173.875 Q4302.8594,1174.0313 4302.1563,1174.0313 Q4299.6563,1174.0313 4298.3281,1172.3906 Q4297.0156,1170.7344 4297.0156,1167.6094 Q4297.0156,1164.4844 4298.3281,1162.8281 Q4299.6563,1161.1719 4302.1563,1161.1719 Q4302.8594,1161.1719 4303.5,1161.3281 Q4304.1563,1161.4844 4304.7188,1161.7813 L4304.7188,1164.5 Q4304.0938,1163.9219 4303.5,1163.6563 Q4302.9063,1163.375 4302.2813,1163.375 Q4300.9375,1163.375 4300.25,1164.4531 Q4299.5625,1165.5156 4299.5625,1167.6094 Q4299.5625,1169.7031 4300.25,1170.7813 Q4300.9375,1171.8438 4302.2813,1171.8438 Q4302.9063,1171.8438 4303.5,1171.5781 Q4304.0938,1171.2969 4304.7188,1170.7188 L4304.7188,1173.4375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="4322.25" y="1172.6436">Temps</text><line style="stroke:#181818;stroke-width:0.5;" x1="4181" x2="4479" y1="1183.7969" y2="1183.7969"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="4188" y="1194.4453"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="144" x="4200" y="1200.792">semaineActuelle : int</text><line style="stroke:#181818;stroke-width:0.5;" x1="4181" x2="4479" y1="1208.0938" y2="1208.0938"/><ellipse cx="4191" cy="1221.7422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="4200" y="1225.0889">PasserSemaine()</text><ellipse cx="4191" cy="1238.0391" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="274" x="4200" y="1241.3857">DemarrerJeu() ' Orchestrates game loop</text></g><!--MD5=[07a03d6eb7c2513be9c194f83ae162ad]
+class Saison--><g id="elem_Saison"><rect codeLine="62" fill="#F1F1F1" height="96.8906" id="Saison" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.5;" width="281" x="4742.5" y="1374.2969"/><ellipse cx="4855.75" cy="1390.2969" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M4858.7188,1395.9375 Q4858.1406,1396.2344 4857.5,1396.375 Q4856.8594,1396.5313 4856.1563,1396.5313 Q4853.6563,1396.5313 4852.3281,1394.8906 Q4851.0156,1393.2344 4851.0156,1390.1094 Q4851.0156,1386.9844 4852.3281,1385.3281 Q4853.6563,1383.6719 4856.1563,1383.6719 Q4856.8594,1383.6719 4857.5,1383.8281 Q4858.1563,1383.9844 4858.7188,1384.2813 L4858.7188,1387 Q4858.0938,1386.4219 4857.5,1386.1563 Q4856.9063,1385.875 4856.2813,1385.875 Q4854.9375,1385.875 4854.25,1386.9531 Q4853.5625,1388.0156 4853.5625,1390.1094 Q4853.5625,1392.2031 4854.25,1393.2813 Q4854.9375,1394.3438 4856.2813,1394.3438 Q4856.9063,1394.3438 4857.5,1394.0781 Q4858.0938,1393.7969 4858.7188,1393.2188 L4858.7188,1395.9375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="4876.25" y="1395.1436">Saison</text><line style="stroke:#181818;stroke-width:0.5;" x1="4743.5" x2="5022.5" y1="1406.2969" y2="1406.2969"/><ellipse cx="4753.5" cy="1419.9453" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="194" x="4762.5" y="1423.292">SaisonActuelle : TypeSaison</text><line style="stroke:#181818;stroke-width:0.5;" x1="4743.5" x2="5022.5" y1="1430.5938" y2="1430.5938"/><ellipse cx="4753.5" cy="1444.2422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="255" x="4762.5" y="1447.5889">AvancerSaison(semaineActuelle : int)</text><ellipse cx="4753.5" cy="1460.5391" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="165" x="4762.5" y="1463.8857">GetNomSaison() : string</text></g><!--MD5=[bc29cd926d598b4df3f772c8287d9519]
+class TypeSaison--><g id="elem_TypeSaison"><rect codeLine="67" fill="#F1F1F1" height="105.1875" id="TypeSaison" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.5;" width="112" x="4827" y="1544.2969"/><ellipse cx="4842" cy="1560.2969" fill="#EB937F" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M4846.1094,1566.2969 L4838.3906,1566.2969 L4838.3906,1553.9063 L4846.1094,1553.9063 L4846.1094,1556.0625 L4840.8438,1556.0625 L4840.8438,1558.7344 L4845.6094,1558.7344 L4845.6094,1560.8906 L4840.8438,1560.8906 L4840.8438,1564.1406 L4846.1094,1564.1406 L4846.1094,1566.2969 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="4856" y="1565.1436">TypeSaison</text><line style="stroke:#181818;stroke-width:0.5;" x1="4828" x2="4938" y1="1576.2969" y2="1576.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="4833" y="1593.292">Printemps</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="23" x="4833" y="1609.5889">Ete</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="63" x="4833" y="1625.8857">Automne</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="34" x="4833" y="1642.1826">Hiver</text></g><!--MD5=[3c2cbbee24bda6f963becc0a442377df]
+class Temperature--><g id="elem_Temperature"><rect codeLine="74" fill="#F1F1F1" height="113.1875" id="Temperature" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.5;" width="399" x="3870.5" y="1366.2969"/><ellipse cx="4020.75" cy="1382.2969" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M4023.7188,1387.9375 Q4023.1406,1388.2344 4022.5,1388.375 Q4021.8594,1388.5313 4021.1563,1388.5313 Q4018.6563,1388.5313 4017.3281,1386.8906 Q4016.0156,1385.2344 4016.0156,1382.1094 Q4016.0156,1378.9844 4017.3281,1377.3281 Q4018.6563,1375.6719 4021.1563,1375.6719 Q4021.8594,1375.6719 4022.5,1375.8281 Q4023.1563,1375.9844 4023.7188,1376.2813 L4023.7188,1379 Q4023.0938,1378.4219 4022.5,1378.1563 Q4021.9063,1377.875 4021.2813,1377.875 Q4019.9375,1377.875 4019.25,1378.9531 Q4018.5625,1380.0156 4018.5625,1382.1094 Q4018.5625,1384.2031 4019.25,1385.2813 Q4019.9375,1386.3438 4021.2813,1386.3438 Q4021.9063,1386.3438 4022.5,1386.0781 Q4023.0938,1385.7969 4023.7188,1385.2188 L4023.7188,1387.9375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="90" x="4041.25" y="1387.1436">Temperature</text><line style="stroke:#181818;stroke-width:0.5;" x1="3871.5" x2="4268.5" y1="1398.2969" y2="1398.2969"/><ellipse cx="3881.5" cy="1411.9453" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="3890.5" y="1415.292">Valeur : int</text><line style="stroke:#181818;stroke-width:0.5;" x1="3871.5" x2="4268.5" y1="1422.5938" y2="1422.5938"/><ellipse cx="3881.5" cy="1436.2422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="373" x="3890.5" y="1439.5889">MettreAJourTemperature(saisonActuelle : TypeSaison)</text><ellipse cx="3881.5" cy="1452.5391" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="3890.5" y="1455.8857">EstEnGel() : bool</text><ellipse cx="3881.5" cy="1468.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="152" x="3890.5" y="1472.1826">EstEnCanicule() : bool</text></g><!--MD5=[a8377fe75e21dbe6c86d1a78e9ae3817]
+class Precipitations--><g id="elem_Precipitations"><rect codeLine="81" fill="#F1F1F1" height="113.1875" id="Precipitations" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.5;" width="402" x="4305" y="1366.2969"/><ellipse cx="4455.25" cy="1382.2969" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M4458.2188,1387.9375 Q4457.6406,1388.2344 4457,1388.375 Q4456.3594,1388.5313 4455.6563,1388.5313 Q4453.1563,1388.5313 4451.8281,1386.8906 Q4450.5156,1385.2344 4450.5156,1382.1094 Q4450.5156,1378.9844 4451.8281,1377.3281 Q4453.1563,1375.6719 4455.6563,1375.6719 Q4456.3594,1375.6719 4457,1375.8281 Q4457.6563,1375.9844 4458.2188,1376.2813 L4458.2188,1379 Q4457.5938,1378.4219 4457,1378.1563 Q4456.4063,1377.875 4455.7813,1377.875 Q4454.4375,1377.875 4453.75,1378.9531 Q4453.0625,1380.0156 4453.0625,1382.1094 Q4453.0625,1384.2031 4453.75,1385.2813 Q4454.4375,1386.3438 4455.7813,1386.3438 Q4456.4063,1386.3438 4457,1386.0781 Q4457.5938,1385.7969 4458.2188,1385.2188 L4458.2188,1387.9375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="4475.75" y="1387.1436">Precipitations</text><line style="stroke:#181818;stroke-width:0.5;" x1="4306" x2="4706" y1="1398.2969" y2="1398.2969"/><ellipse cx="4316" cy="1411.9453" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="4325" y="1415.292">Niveau : int</text><line style="stroke:#181818;stroke-width:0.5;" x1="4306" x2="4706" y1="1422.5938" y2="1422.5938"/><ellipse cx="4316" cy="1436.2422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="376" x="4325" y="1439.5889">MettreAJourPrecipitations(saisonActuelle : TypeSaison)</text><ellipse cx="4316" cy="1452.5391" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="314" x="4325" y="1455.8857">EstEnSecheresse(saison : TypeSaison) : bool</text><ellipse cx="4316" cy="1468.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="166" x="4325" y="1472.1826">EstEnInondation() : bool</text></g><!--MD5=[aa2bb12b1d34009d39b42a242f861e93]
+class Pays--><g id="elem_Pays"><rect codeLine="88" fill="#F1F1F1" height="88.8906" id="Pays" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.5;" width="248" x="4659" y="1155.7969"/><ellipse cx="4762.75" cy="1171.7969" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M4765.7188,1177.4375 Q4765.1406,1177.7344 4764.5,1177.875 Q4763.8594,1178.0313 4763.1563,1178.0313 Q4760.6563,1178.0313 4759.3281,1176.3906 Q4758.0156,1174.7344 4758.0156,1171.6094 Q4758.0156,1168.4844 4759.3281,1166.8281 Q4760.6563,1165.1719 4763.1563,1165.1719 Q4763.8594,1165.1719 4764.5,1165.3281 Q4765.1563,1165.4844 4765.7188,1165.7813 L4765.7188,1168.5 Q4765.0938,1167.9219 4764.5,1167.6563 Q4763.9063,1167.375 4763.2813,1167.375 Q4761.9375,1167.375 4761.25,1168.4531 Q4760.5625,1169.5156 4760.5625,1171.6094 Q4760.5625,1173.7031 4761.25,1174.7813 Q4761.9375,1175.8438 4763.2813,1175.8438 Q4763.9063,1175.8438 4764.5,1175.5781 Q4765.0938,1175.2969 4765.7188,1174.7188 L4765.7188,1177.4375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="32" x="4783.25" y="1176.6436">Pays</text><line style="stroke:#181818;stroke-width:0.5;" x1="4660" x2="4906" y1="1187.7969" y2="1187.7969"/><ellipse cx="4670" cy="1201.4453" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="4679" y="1204.792">Nom : string</text><ellipse cx="4670" cy="1217.7422" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="222" x="4679" y="1221.0889">SemisDisponibles : List&lt;string&gt;</text><ellipse cx="4670" cy="1234.0391" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="131" x="4679" y="1237.3857">Climat : TypeClimat</text></g><!--MD5=[14ea2c53641d2682d9b084879de753bc]
+class TypeClimat--><g id="elem_TypeClimat"><rect codeLine="93" fill="#F1F1F1" height="121.4844" id="TypeClimat" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.5;" width="108" x="5059" y="1362.2969"/><ellipse cx="5074" cy="1378.2969" fill="#EB937F" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M5078.1094,1384.2969 L5070.3906,1384.2969 L5070.3906,1371.9063 L5078.1094,1371.9063 L5078.1094,1374.0625 L5072.8438,1374.0625 L5072.8438,1376.7344 L5077.6094,1376.7344 L5077.6094,1378.8906 L5072.8438,1378.8906 L5072.8438,1382.1406 L5078.1094,1382.1406 L5078.1094,1384.2969 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="5088" y="1383.1436">TypeClimat</text><line style="stroke:#181818;stroke-width:0.5;" x1="5060" x2="5166" y1="1394.2969" y2="1394.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="5065" y="1411.292">Tropical</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="63" x="5065" y="1427.5889">Tempere</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="35" x="5065" y="1443.8857">Aride</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="5065" y="1460.1826">Continental</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="5065" y="1476.4795">Polaire</text></g><!--MD5=[e40f19612f1dd6d7b7e47363e0d155e6]
+class TypeTerrain--><g id="elem_TypeTerrain"><rect codeLine="100" fill="#F1F1F1" height="170.375" id="TypeTerrain" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.5;" width="274" x="3871" y="1115.2969"/><ellipse cx="3962.75" cy="1131.2969" fill="#EB937F" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M3966.8594,1137.2969 L3959.1406,1137.2969 L3959.1406,1124.9063 L3966.8594,1124.9063 L3966.8594,1127.0625 L3961.5938,1127.0625 L3961.5938,1129.7344 L3966.3594,1129.7344 L3966.3594,1131.8906 L3961.5938,1131.8906 L3961.5938,1135.1406 L3966.8594,1135.1406 L3966.8594,1137.2969 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="3983.25" y="1136.1436">TypeTerrain</text><line style="stroke:#181818;stroke-width:0.5;" x1="3872" x2="4144" y1="1147.2969" y2="1147.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="38" x="3877" y="1164.292">Sable</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37" x="3877" y="1180.5889">Terre</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="38" x="3877" y="1196.8857">Argile</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41" x="3877" y="1213.1826">Limon</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="262" x="3877" y="1229.4795">TerreLimoneuse ' Example from Plaine</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="226" x="3877" y="1245.7764">Rocheux ' Example for Montagne</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="218" x="3877" y="1262.0732">CratereSol ' Example for Cratere</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="219" x="3877" y="1278.3701">Desertique ' Example for Desert</text></g><!--MD5=[0bdda68f60bb20ad86f8ae845eebf8fd]
+class PlanteComestible--><g id="elem_PlanteComestible"><rect codeLine="114" fill="#F1F1F1" height="72.5938" id="PlanteComestible" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.5;" width="197" x="1804.5" y="1163.7969"/><ellipse cx="1839.3" cy="1179.7969" fill="#A9DCDF" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1839.4094,1175.1406 L1838.2531,1180.2188 L1840.5813,1180.2188 L1839.4094,1175.1406 Z M1837.925,1172.9063 L1840.9094,1172.9063 L1844.2688,1185.2969 L1841.8156,1185.2969 L1841.05,1182.2344 L1837.7688,1182.2344 L1837.0188,1185.2969 L1834.5813,1185.2969 L1837.925,1172.9063 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="121" x="1857.7" y="1184.6436">PlanteComestible</text><line style="stroke:#181818;stroke-width:0.5;" x1="1805.5" x2="2000.5" y1="1195.7969" y2="1195.7969"/><ellipse cx="1815.5" cy="1209.4453" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="164" x="1824.5" y="1212.792">ValeurNutritionnelle : int</text><ellipse cx="1815.5" cy="1225.7422" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="171" x="1824.5" y="1229.0889">TempsDeMaturation : int</text></g><!--MD5=[c1edc27b62bc35b0f18b6d6874238897]
+class Tomate--><g id="elem_Tomate"><rect codeLine="119" fill="#F1F1F1" height="32" id="Tomate" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.5;" width="85" x="1797.5" y="1406.7969"/><ellipse cx="1812.5" cy="1422.7969" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1815.4688,1428.4375 Q1814.8906,1428.7344 1814.25,1428.875 Q1813.6094,1429.0313 1812.9063,1429.0313 Q1810.4063,1429.0313 1809.0781,1427.3906 Q1807.7656,1425.7344 1807.7656,1422.6094 Q1807.7656,1419.4844 1809.0781,1417.8281 Q1810.4063,1416.1719 1812.9063,1416.1719 Q1813.6094,1416.1719 1814.25,1416.3281 Q1814.9063,1416.4844 1815.4688,1416.7813 L1815.4688,1419.5 Q1814.8438,1418.9219 1814.25,1418.6563 Q1813.6563,1418.375 1813.0313,1418.375 Q1811.6875,1418.375 1811,1419.4531 Q1810.3125,1420.5156 1810.3125,1422.6094 Q1810.3125,1424.7031 1811,1425.7813 Q1811.6875,1426.8438 1813.0313,1426.8438 Q1813.6563,1426.8438 1814.25,1426.5781 Q1814.8438,1426.2969 1815.4688,1425.7188 L1815.4688,1428.4375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="53" x="1826.5" y="1427.6436">Tomate</text></g><!--MD5=[9c7dda7ad4aece13c4051255f918de39]
+class Carotte--><g id="elem_Carotte"><rect codeLine="121" fill="#F1F1F1" height="32" id="Carotte" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.5;" width="83" x="1917.5" y="1406.7969"/><ellipse cx="1932.5" cy="1422.7969" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1935.4688,1428.4375 Q1934.8906,1428.7344 1934.25,1428.875 Q1933.6094,1429.0313 1932.9063,1429.0313 Q1930.4063,1429.0313 1929.0781,1427.3906 Q1927.7656,1425.7344 1927.7656,1422.6094 Q1927.7656,1419.4844 1929.0781,1417.8281 Q1930.4063,1416.1719 1932.9063,1416.1719 Q1933.6094,1416.1719 1934.25,1416.3281 Q1934.9063,1416.4844 1935.4688,1416.7813 L1935.4688,1419.5 Q1934.8438,1418.9219 1934.25,1418.6563 Q1933.6563,1418.375 1933.0313,1418.375 Q1931.6875,1418.375 1931,1419.4531 Q1930.3125,1420.5156 1930.3125,1422.6094 Q1930.3125,1424.7031 1931,1425.7813 Q1931.6875,1426.8438 1933.0313,1426.8438 Q1933.6563,1426.8438 1934.25,1426.5781 Q1934.8438,1426.2969 1935.4688,1425.7188 L1935.4688,1428.4375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="51" x="1946.5" y="1427.6436">Carotte</text></g><!--MD5=[2cb458672b2c4643e0685acb57d49d64]
+class PlanteAromatique--><g id="elem_PlanteAromatique"><rect codeLine="125" fill="#F1F1F1" height="32" id="PlanteAromatique" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.5;" width="154" x="2037" y="1184.2969"/><ellipse cx="2052" cy="1200.2969" fill="#A9DCDF" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M2052.1094,1195.6406 L2050.9531,1200.7188 L2053.2813,1200.7188 L2052.1094,1195.6406 Z M2050.625,1193.4063 L2053.6094,1193.4063 L2056.9688,1205.7969 L2054.5156,1205.7969 L2053.75,1202.7344 L2050.4688,1202.7344 L2049.7188,1205.7969 L2047.2813,1205.7969 L2050.625,1193.4063 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="122" x="2066" y="1205.1436">PlanteAromatique</text></g><!--MD5=[213b3f38db0f344d7eab29833d08e1ae]
+class Menthe--><g id="elem_Menthe"><rect codeLine="129" fill="#F1F1F1" height="32" id="Menthe" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.5;" width="85" x="2071.5" y="1406.7969"/><ellipse cx="2086.5" cy="1422.7969" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M2089.4688,1428.4375 Q2088.8906,1428.7344 2088.25,1428.875 Q2087.6094,1429.0313 2086.9063,1429.0313 Q2084.4063,1429.0313 2083.0781,1427.3906 Q2081.7656,1425.7344 2081.7656,1422.6094 Q2081.7656,1419.4844 2083.0781,1417.8281 Q2084.4063,1416.1719 2086.9063,1416.1719 Q2087.6094,1416.1719 2088.25,1416.3281 Q2088.9063,1416.4844 2089.4688,1416.7813 L2089.4688,1419.5 Q2088.8438,1418.9219 2088.25,1418.6563 Q2087.6563,1418.375 2087.0313,1418.375 Q2085.6875,1418.375 2085,1419.4531 Q2084.3125,1420.5156 2084.3125,1422.6094 Q2084.3125,1424.7031 2085,1425.7813 Q2085.6875,1426.8438 2087.0313,1426.8438 Q2087.6563,1426.8438 2088.25,1426.5781 Q2088.8438,1426.2969 2089.4688,1425.7188 L2089.4688,1428.4375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="53" x="2100.5" y="1427.6436">Menthe</text></g><!--MD5=[24c63757100d518a91be8803d5385b5f]
+class PlanteCommerciale--><g id="elem_PlanteCommerciale"><rect codeLine="133" fill="#F1F1F1" height="56.2969" id="PlanteCommerciale" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.5;" width="207" x="2226.5" y="1172.2969"/><ellipse cx="2260.4" cy="1188.2969" fill="#A9DCDF" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M2260.5094,1183.6406 L2259.3531,1188.7188 L2261.6813,1188.7188 L2260.5094,1183.6406 Z M2259.025,1181.4063 L2262.0094,1181.4063 L2265.3688,1193.7969 L2262.9156,1193.7969 L2262.15,1190.7344 L2258.8688,1190.7344 L2258.1188,1193.7969 L2255.6813,1193.7969 L2259.025,1181.4063 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="133" x="2278.6" y="1193.1436">PlanteCommerciale</text><line style="stroke:#181818;stroke-width:0.5;" x1="2227.5" x2="2432.5" y1="1204.2969" y2="1204.2969"/><ellipse cx="2237.5" cy="1217.9453" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="181" x="2246.5" y="1221.292">ValeurMarchande : double</text></g><!--MD5=[548fd008a9aeca91f8f610a7567479d5]
+class Coton--><g id="elem_Coton"><rect codeLine="137" fill="#F1F1F1" height="32" id="Coton" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.5;" width="74" x="2293" y="1406.7969"/><ellipse cx="2308" cy="1422.7969" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M2310.9688,1428.4375 Q2310.3906,1428.7344 2309.75,1428.875 Q2309.1094,1429.0313 2308.4063,1429.0313 Q2305.9063,1429.0313 2304.5781,1427.3906 Q2303.2656,1425.7344 2303.2656,1422.6094 Q2303.2656,1419.4844 2304.5781,1417.8281 Q2305.9063,1416.1719 2308.4063,1416.1719 Q2309.1094,1416.1719 2309.75,1416.3281 Q2310.4063,1416.4844 2310.9688,1416.7813 L2310.9688,1419.5 Q2310.3438,1418.9219 2309.75,1418.6563 Q2309.1563,1418.375 2308.5313,1418.375 Q2307.1875,1418.375 2306.5,1419.4531 Q2305.8125,1420.5156 2305.8125,1422.6094 Q2305.8125,1424.7031 2306.5,1425.7813 Q2307.1875,1426.8438 2308.5313,1426.8438 Q2309.1563,1426.8438 2309.75,1426.5781 Q2310.3438,1426.2969 2310.9688,1425.7188 L2310.9688,1428.4375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="2322" y="1427.6436">Coton</text></g><!--MD5=[9cb8827df54a30e977413fcb09096451]
+class PlanteOrnementale--><g id="elem_PlanteOrnementale"><rect codeLine="141" fill="#F1F1F1" height="32" id="PlanteOrnementale" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.5;" width="165" x="1604.5" y="1184.2969"/><ellipse cx="1619.5" cy="1200.2969" fill="#A9DCDF" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1619.6094,1195.6406 L1618.4531,1200.7188 L1620.7813,1200.7188 L1619.6094,1195.6406 Z M1618.125,1193.4063 L1621.1094,1193.4063 L1624.4688,1205.7969 L1622.0156,1205.7969 L1621.25,1202.7344 L1617.9688,1202.7344 L1617.2188,1205.7969 L1614.7813,1205.7969 L1618.125,1193.4063 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="133" x="1633.5" y="1205.1436">PlanteOrnementale</text></g><!--MD5=[c360aa21eeef36f4ac0f49d6dbbe3c61]
+class Rosier--><g id="elem_Rosier"><rect codeLine="145" fill="#F1F1F1" height="32" id="Rosier" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.5;" width="76" x="1649" y="1406.7969"/><ellipse cx="1664" cy="1422.7969" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1666.9688,1428.4375 Q1666.3906,1428.7344 1665.75,1428.875 Q1665.1094,1429.0313 1664.4063,1429.0313 Q1661.9063,1429.0313 1660.5781,1427.3906 Q1659.2656,1425.7344 1659.2656,1422.6094 Q1659.2656,1419.4844 1660.5781,1417.8281 Q1661.9063,1416.1719 1664.4063,1416.1719 Q1665.1094,1416.1719 1665.75,1416.3281 Q1666.4063,1416.4844 1666.9688,1416.7813 L1666.9688,1419.5 Q1666.3438,1418.9219 1665.75,1418.6563 Q1665.1563,1418.375 1664.5313,1418.375 Q1663.1875,1418.375 1662.5,1419.4531 Q1661.8125,1420.5156 1661.8125,1422.6094 Q1661.8125,1424.7031 1662.5,1425.7813 Q1663.1875,1426.8438 1664.5313,1426.8438 Q1665.1563,1426.8438 1665.75,1426.5781 Q1666.3438,1426.2969 1666.9688,1425.7188 L1666.9688,1428.4375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="1678" y="1427.6436">Rosier</text></g><!--MD5=[9fab1b13c531852927e97c4554fb6bd1]
+class Plaine--><g id="elem_Plaine"><rect codeLine="151" fill="#F1F1F1" height="32" id="Plaine" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.5;" width="73" x="3741.5" y="1184.2969"/><ellipse cx="3756.5" cy="1200.2969" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M3759.4688,1205.9375 Q3758.8906,1206.2344 3758.25,1206.375 Q3757.6094,1206.5313 3756.9063,1206.5313 Q3754.4063,1206.5313 3753.0781,1204.8906 Q3751.7656,1203.2344 3751.7656,1200.1094 Q3751.7656,1196.9844 3753.0781,1195.3281 Q3754.4063,1193.6719 3756.9063,1193.6719 Q3757.6094,1193.6719 3758.25,1193.8281 Q3758.9063,1193.9844 3759.4688,1194.2813 L3759.4688,1197 Q3758.8438,1196.4219 3758.25,1196.1563 Q3757.6563,1195.875 3757.0313,1195.875 Q3755.6875,1195.875 3755,1196.9531 Q3754.3125,1198.0156 3754.3125,1200.1094 Q3754.3125,1202.2031 3755,1203.2813 Q3755.6875,1204.3438 3757.0313,1204.3438 Q3757.6563,1204.3438 3758.25,1204.0781 Q3758.8438,1203.7969 3759.4688,1203.2188 L3759.4688,1205.9375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41" x="3770.5" y="1205.1436">Plaine</text></g><!--MD5=[3925079da9bf47ea6356e4fd9908c996]
+class Montagne--><g id="elem_Montagne"><rect codeLine="153" fill="#F1F1F1" height="32" id="Montagne" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.5;" width="102" x="3490" y="1184.2969"/><ellipse cx="3505" cy="1200.2969" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M3507.9688,1205.9375 Q3507.3906,1206.2344 3506.75,1206.375 Q3506.1094,1206.5313 3505.4063,1206.5313 Q3502.9063,1206.5313 3501.5781,1204.8906 Q3500.2656,1203.2344 3500.2656,1200.1094 Q3500.2656,1196.9844 3501.5781,1195.3281 Q3502.9063,1193.6719 3505.4063,1193.6719 Q3506.1094,1193.6719 3506.75,1193.8281 Q3507.4063,1193.9844 3507.9688,1194.2813 L3507.9688,1197 Q3507.3438,1196.4219 3506.75,1196.1563 Q3506.1563,1195.875 3505.5313,1195.875 Q3504.1875,1195.875 3503.5,1196.9531 Q3502.8125,1198.0156 3502.8125,1200.1094 Q3502.8125,1202.2031 3503.5,1203.2813 Q3504.1875,1204.3438 3505.5313,1204.3438 Q3506.1563,1204.3438 3506.75,1204.0781 Q3507.3438,1203.7969 3507.9688,1203.2188 L3507.9688,1205.9375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="3519" y="1205.1436">Montagne</text></g><!--MD5=[02ce77cc286e48a35058550fd5355163]
+class Desert--><g id="elem_Desert"><rect codeLine="155" fill="#F1F1F1" height="32" id="Desert" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.5;" width="79" x="3627.5" y="1184.2969"/><ellipse cx="3642.5" cy="1200.2969" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M3645.4688,1205.9375 Q3644.8906,1206.2344 3644.25,1206.375 Q3643.6094,1206.5313 3642.9063,1206.5313 Q3640.4063,1206.5313 3639.0781,1204.8906 Q3637.7656,1203.2344 3637.7656,1200.1094 Q3637.7656,1196.9844 3639.0781,1195.3281 Q3640.4063,1193.6719 3642.9063,1193.6719 Q3643.6094,1193.6719 3644.25,1193.8281 Q3644.9063,1193.9844 3645.4688,1194.2813 L3645.4688,1197 Q3644.8438,1196.4219 3644.25,1196.1563 Q3643.6563,1195.875 3643.0313,1195.875 Q3641.6875,1195.875 3641,1196.9531 Q3640.3125,1198.0156 3640.3125,1200.1094 Q3640.3125,1202.2031 3641,1203.2813 Q3641.6875,1204.3438 3643.0313,1204.3438 Q3643.6563,1204.3438 3644.25,1204.0781 Q3644.8438,1203.7969 3645.4688,1203.2188 L3645.4688,1205.9375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="3656.5" y="1205.1436">Desert</text></g><!--MD5=[175f95e045c1a44aed0b30df3abe0e5c]
+class Program--><g id="elem_Program"><rect codeLine="160" fill="#F1F1F1" height="56.2969" id="Program" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.5;" width="160" x="2490" y="90.7969"/><ellipse cx="2536.75" cy="106.7969" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M2539.7188,112.4375 Q2539.1406,112.7344 2538.5,112.875 Q2537.8594,113.0313 2537.1563,113.0313 Q2534.6563,113.0313 2533.3281,111.3906 Q2532.0156,109.7344 2532.0156,106.6094 Q2532.0156,103.4844 2533.3281,101.8281 Q2534.6563,100.1719 2537.1563,100.1719 Q2537.8594,100.1719 2538.5,100.3281 Q2539.1563,100.4844 2539.7188,100.7813 L2539.7188,103.5 Q2539.0938,102.9219 2538.5,102.6563 Q2537.9063,102.375 2537.2813,102.375 Q2535.9375,102.375 2535.25,103.4531 Q2534.5625,104.5156 2534.5625,106.6094 Q2534.5625,108.7031 2535.25,109.7813 Q2535.9375,110.8438 2537.2813,110.8438 Q2537.9063,110.8438 2538.5,110.5781 Q2539.0938,110.2969 2539.7188,109.7188 L2539.7188,112.4375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="58" x="2557.25" y="111.6436">Program</text><line style="stroke:#181818;stroke-width:0.5;" x1="2491" x2="2649" y1="122.7969" y2="122.7969"/><ellipse cx="2501" cy="136.4453" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="134" x="2510" y="139.792">Main(args : string[])</text></g><!--MD5=[2431155c96c4d844aee400cfd3d26fba]
+class Affichage--><g id="elem_Affichage"><rect codeLine="164" fill="#F1F1F1" height="113.1875" id="Affichage" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.5;" width="288" x="3006" y="257.2969"/><ellipse cx="3114.25" cy="273.2969" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M3117.2188,278.9375 Q3116.6406,279.2344 3116,279.375 Q3115.3594,279.5313 3114.6563,279.5313 Q3112.1563,279.5313 3110.8281,277.8906 Q3109.5156,276.2344 3109.5156,273.1094 Q3109.5156,269.9844 3110.8281,268.3281 Q3112.1563,266.6719 3114.6563,266.6719 Q3115.3594,266.6719 3116,266.8281 Q3116.6563,266.9844 3117.2188,267.2813 L3117.2188,270 Q3116.5938,269.4219 3116,269.1563 Q3115.4063,268.875 3114.7813,268.875 Q3113.4375,268.875 3112.75,269.9531 Q3112.0625,271.0156 3112.0625,273.1094 Q3112.0625,275.2031 3112.75,276.2813 Q3113.4375,277.3438 3114.7813,277.3438 Q3115.4063,277.3438 3116,277.0781 Q3116.5938,276.7969 3117.2188,276.2188 L3117.2188,278.9375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="63" x="3134.75" y="278.1436">Affichage</text><line style="stroke:#181818;stroke-width:0.5;" x1="3007" x2="3293" y1="289.2969" y2="289.2969"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="3014" y="299.9453"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="170" x="3026" y="306.292">grilleDuJardin : Parcelle[,]</text><line style="stroke:#181818;stroke-width:0.5;" x1="3007" x2="3293" y1="313.5938" y2="313.5938"/><ellipse cx="3017" cy="327.2422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="3026" y="330.5889">AfficherPlateau()</text><ellipse cx="3017" cy="343.5391" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="240" x="3026" y="346.8857">AfficherMessage(message : string)</text><ellipse cx="3017" cy="359.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="262" x="3026" y="363.1826">DessinerPlante(plante: Plante) : string</text></g><!--MD5=[136efcb64a4b89680f1095fe33c95043]
+class Webcam--><g id="elem_Webcam"><rect codeLine="171" fill="#F1F1F1" height="80.5938" id="Webcam" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.5;" width="596" x="2685" y="78.2969"/><ellipse cx="2948.75" cy="94.2969" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M2951.7188,99.9375 Q2951.1406,100.2344 2950.5,100.375 Q2949.8594,100.5313 2949.1563,100.5313 Q2946.6563,100.5313 2945.3281,98.8906 Q2944.0156,97.2344 2944.0156,94.1094 Q2944.0156,90.9844 2945.3281,89.3281 Q2946.6563,87.6719 2949.1563,87.6719 Q2949.8594,87.6719 2950.5,87.8281 Q2951.1563,87.9844 2951.7188,88.2813 L2951.7188,91 Q2951.0938,90.4219 2950.5,90.1563 Q2949.9063,89.875 2949.2813,89.875 Q2947.9375,89.875 2947.25,90.9531 Q2946.5625,92.0156 2946.5625,94.1094 Q2946.5625,96.2031 2947.25,97.2813 Q2947.9375,98.3438 2949.2813,98.3438 Q2949.9063,98.3438 2950.5,98.0781 Q2951.0938,97.7969 2951.7188,97.2188 L2951.7188,99.9375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="2969.25" y="99.1436">Webcam</text><line style="stroke:#181818;stroke-width:0.5;" x1="2686" x2="3280" y1="110.2969" y2="110.2969"/><ellipse cx="2696" cy="123.9453" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="2705" y="127.292">event AlerteDetectee</text><line style="stroke:#181818;stroke-width:0.5;" x1="2686" x2="3280" y1="134.5938" y2="134.5938"/><ellipse cx="2696" cy="148.2422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="570" x="2705" y="151.5889">VerifierJardin(conditions : ConditionsEnvironnementales, parcelles : List&lt;Parcelle&gt;)</text></g><!--MD5=[cf6d7cf4982ba40946a1f43dbd1d9022]
+class AlerteEventArgs--><g id="elem_AlerteEventArgs"><rect codeLine="175" fill="#F1F1F1" height="56.2969" id="AlerteEventArgs" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.5;" width="142" x="3487" y="285.7969"/><ellipse cx="3502" cy="301.7969" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M3504.9688,307.4375 Q3504.3906,307.7344 3503.75,307.875 Q3503.1094,308.0313 3502.4063,308.0313 Q3499.9063,308.0313 3498.5781,306.3906 Q3497.2656,304.7344 3497.2656,301.6094 Q3497.2656,298.4844 3498.5781,296.8281 Q3499.9063,295.1719 3502.4063,295.1719 Q3503.1094,295.1719 3503.75,295.3281 Q3504.4063,295.4844 3504.9688,295.7813 L3504.9688,298.5 Q3504.3438,297.9219 3503.75,297.6563 Q3503.1563,297.375 3502.5313,297.375 Q3501.1875,297.375 3500.5,298.4531 Q3499.8125,299.5156 3499.8125,301.6094 Q3499.8125,303.7031 3500.5,304.7813 Q3501.1875,305.8438 3502.5313,305.8438 Q3503.1563,305.8438 3503.75,305.5781 Q3504.3438,305.2969 3504.9688,304.7188 L3504.9688,307.4375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="3516" y="306.6436">AlerteEventArgs</text><line style="stroke:#181818;stroke-width:0.5;" x1="3488" x2="3628" y1="317.7969" y2="317.7969"/><ellipse cx="3498" cy="331.4453" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="115" x="3507" y="334.792">Message : string</text></g><!--MD5=[23868d926b4091f874f65c50fc3e197e]
+class Obstacle--><g id="elem_Obstacle"><rect codeLine="180" fill="#F1F1F1" height="80.5938" id="Obstacle" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.5;" width="313" x="3315.5" y="78.2969"/><ellipse cx="3437.25" cy="94.2969" fill="#A9DCDF" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M3437.3594,89.6406 L3436.2031,94.7188 L3438.5313,94.7188 L3437.3594,89.6406 Z M3435.875,87.4063 L3438.8594,87.4063 L3442.2188,99.7969 L3439.7656,99.7969 L3439,96.7344 L3435.7188,96.7344 L3434.9688,99.7969 L3432.5313,99.7969 L3435.875,87.4063 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="61" x="3457.75" y="99.1436">Obstacle</text><line style="stroke:#181818;stroke-width:0.5;" x1="3316.5" x2="3627.5" y1="110.2969" y2="110.2969"/><ellipse cx="3326.5" cy="123.9453" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="3335.5" y="127.292">Nom : string</text><line style="stroke:#181818;stroke-width:0.5;" x1="3316.5" x2="3627.5" y1="134.5938" y2="134.5938"/><ellipse cx="3326.5" cy="148.2422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="287" x="3335.5" y="151.5889">abstract AppliquerEffet(parcelle : Parcelle)</text></g><!--MD5=[88d2b564f52929c518effcbf41e5260e]
+class Puceron--><g id="elem_Puceron"><rect codeLine="185" fill="#F1F1F1" height="32" id="Puceron" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.5;" width="90" x="3362" y="297.7969"/><ellipse cx="3377" cy="313.7969" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M3379.9688,319.4375 Q3379.3906,319.7344 3378.75,319.875 Q3378.1094,320.0313 3377.4063,320.0313 Q3374.9063,320.0313 3373.5781,318.3906 Q3372.2656,316.7344 3372.2656,313.6094 Q3372.2656,310.4844 3373.5781,308.8281 Q3374.9063,307.1719 3377.4063,307.1719 Q3378.1094,307.1719 3378.75,307.3281 Q3379.4063,307.4844 3379.9688,307.7813 L3379.9688,310.5 Q3379.3438,309.9219 3378.75,309.6563 Q3378.1563,309.375 3377.5313,309.375 Q3376.1875,309.375 3375.5,310.4531 Q3374.8125,311.5156 3374.8125,313.6094 Q3374.8125,315.7031 3375.5,316.7813 Q3376.1875,317.8438 3377.5313,317.8438 Q3378.1563,317.8438 3378.75,317.5781 Q3379.3438,317.2969 3379.9688,316.7188 L3379.9688,319.4375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="58" x="3391" y="318.6436">Puceron</text></g><!--MD5=[2c30c6c25cbff6d0f829457306444186]
+class System.EventArgs--><g id="elem_System.EventArgs"><rect fill="#F1F1F1" height="32" id="System.EventArgs" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.5;" width="102" x="3685" y="102.7969"/><ellipse cx="3700" cy="118.7969" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M3702.9688,124.4375 Q3702.3906,124.7344 3701.75,124.875 Q3701.1094,125.0313 3700.4063,125.0313 Q3697.9063,125.0313 3696.5781,123.3906 Q3695.2656,121.7344 3695.2656,118.6094 Q3695.2656,115.4844 3696.5781,113.8281 Q3697.9063,112.1719 3700.4063,112.1719 Q3701.1094,112.1719 3701.75,112.3281 Q3702.4063,112.4844 3702.9688,112.7813 L3702.9688,115.5 Q3702.3438,114.9219 3701.75,114.6563 Q3701.1563,114.375 3700.5313,114.375 Q3699.1875,114.375 3698.5,115.4531 Q3697.8125,116.5156 3697.8125,118.6094 Q3697.8125,120.7031 3698.5,121.7813 Q3699.1875,122.8438 3700.5313,122.8438 Q3701.1563,122.8438 3701.75,122.5781 Q3702.3438,122.2969 3702.9688,121.7188 L3702.9688,124.4375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="3714" y="123.6436">EventArgs</text></g><!--MD5=[1f0e2acc7d10c955afb0b5a0554b9bf5]
+class ModeUrgence--><g id="elem_ModeUrgence"><rect codeLine="190" fill="#F1F1F1" height="113.1875" id="ModeUrgence" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.5;" width="381" x="1736.5" y="257.2969"/><ellipse cx="1873.75" cy="273.2969" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1876.7188,278.9375 Q1876.1406,279.2344 1875.5,279.375 Q1874.8594,279.5313 1874.1563,279.5313 Q1871.6563,279.5313 1870.3281,277.8906 Q1869.0156,276.2344 1869.0156,273.1094 Q1869.0156,269.9844 1870.3281,268.3281 Q1871.6563,266.6719 1874.1563,266.6719 Q1874.8594,266.6719 1875.5,266.8281 Q1876.1563,266.9844 1876.7188,267.2813 L1876.7188,270 Q1876.0938,269.4219 1875.5,269.1563 Q1874.9063,268.875 1874.2813,268.875 Q1872.9375,268.875 1872.25,269.9531 Q1871.5625,271.0156 1871.5625,273.1094 Q1871.5625,275.2031 1872.25,276.2813 Q1872.9375,277.3438 1874.2813,277.3438 Q1874.9063,277.3438 1875.5,277.0781 Q1876.0938,276.7969 1876.7188,276.2188 L1876.7188,278.9375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="1894.25" y="278.1436">ModeUrgence</text><line style="stroke:#181818;stroke-width:0.5;" x1="1737.5" x2="2116.5" y1="289.2969" y2="289.2969"/><ellipse cx="1747.5" cy="302.9453" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94" x="1756.5" y="306.292">EstActif : bool</text><line style="stroke:#181818;stroke-width:0.5;" x1="1737.5" x2="2116.5" y1="313.5938" y2="313.5938"/><ellipse cx="1747.5" cy="327.2422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="355" x="1756.5" y="330.5889">DeclencherUrgence(type : string, message : string)</text><ellipse cx="1747.5" cy="343.5391" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="171" x="1756.5" y="346.8857">AfficherActionsUrgence()</text><ellipse cx="1747.5" cy="359.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="195" x="1756.5" y="363.1826">GererActionJoueurUrgence()</text></g><!--MD5=[7df48284ec984f8a44a5504b652b39a2]
+class ModeMagasin--><g id="elem_ModeMagasin"><rect codeLine="196" fill="#F1F1F1" height="113.1875" id="ModeMagasin" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.5;" width="395" x="588.5" y="257.2969"/><ellipse cx="733.75" cy="273.2969" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M736.7188,278.9375 Q736.1406,279.2344 735.5,279.375 Q734.8594,279.5313 734.1563,279.5313 Q731.6563,279.5313 730.3281,277.8906 Q729.0156,276.2344 729.0156,273.1094 Q729.0156,269.9844 730.3281,268.3281 Q731.6563,266.6719 734.1563,266.6719 Q734.8594,266.6719 735.5,266.8281 Q736.1563,266.9844 736.7188,267.2813 L736.7188,270 Q736.0938,269.4219 735.5,269.1563 Q734.9063,268.875 734.2813,268.875 Q732.9375,268.875 732.25,269.9531 Q731.5625,271.0156 731.5625,273.1094 Q731.5625,275.2031 732.25,276.2813 Q732.9375,277.3438 734.2813,277.3438 Q734.9063,277.3438 735.5,277.0781 Q736.0938,276.7969 736.7188,276.2188 L736.7188,278.9375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="754.25" y="278.1436">ModeMagasin</text><line style="stroke:#181818;stroke-width:0.5;" x1="589.5" x2="982.5" y1="289.2969" y2="289.2969"/><ellipse cx="599.5" cy="302.9453" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="151" x="608.5" y="306.292">ArgentJoueur : double</text><line style="stroke:#181818;stroke-width:0.5;" x1="589.5" x2="982.5" y1="313.5938" y2="313.5938"/><ellipse cx="599.5" cy="327.2422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="369" x="608.5" y="330.5889">VendreRecolte(planteRecoltee : Plante, quantite : int)</text><ellipse cx="599.5" cy="343.5391" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="326" x="608.5" y="346.8857">AcheterSemis(nomSemis : string, quantite : int)</text><ellipse cx="599.5" cy="359.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="169" x="608.5" y="363.1826">AfficherBilanComptable()</text></g><!--MD5=[2b4f065709b27717fa40eb7eff48ec1c]
+class ModeIA--><g id="elem_ModeIA"><rect codeLine="202" fill="#F1F1F1" height="56.2969" id="ModeIA" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.5;" width="682" x="1019" y="285.7969"/><ellipse cx="1330.25" cy="301.7969" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1333.2188,307.4375 Q1332.6406,307.7344 1332,307.875 Q1331.3594,308.0313 1330.6563,308.0313 Q1328.1563,308.0313 1326.8281,306.3906 Q1325.5156,304.7344 1325.5156,301.6094 Q1325.5156,298.4844 1326.8281,296.8281 Q1328.1563,295.1719 1330.6563,295.1719 Q1331.3594,295.1719 1332,295.3281 Q1332.6563,295.4844 1333.2188,295.7813 L1333.2188,298.5 Q1332.5938,297.9219 1332,297.6563 Q1331.4063,297.375 1330.7813,297.375 Q1329.4375,297.375 1328.75,298.4531 Q1328.0625,299.5156 1328.0625,301.6094 Q1328.0625,303.7031 1328.75,304.7813 Q1329.4375,305.8438 1330.7813,305.8438 Q1331.4063,305.8438 1332,305.5781 Q1332.5938,305.2969 1333.2188,304.7188 L1333.2188,307.4375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="51" x="1350.75" y="306.6436">ModeIA</text><line style="stroke:#181818;stroke-width:0.5;" x1="1020" x2="1700" y1="317.7969" y2="317.7969"/><ellipse cx="1030" cy="331.4453" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="656" x="1039" y="334.792">ObtenirRecommandation(parcelle : Parcelle, conditions : ConditionsEnvironnementales) : string</text></g><!--MD5=[d8322d189550a4ebbfeee7ce5c79d664]
+class ModeEcologique--><g id="elem_ModeEcologique"><rect codeLine="205" fill="#F1F1F1" height="96.8906" id="ModeEcologique" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.5;" width="281" x="2152.5" y="265.2969"/><ellipse cx="2230.75" cy="281.2969" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M2233.7188,286.9375 Q2233.1406,287.2344 2232.5,287.375 Q2231.8594,287.5313 2231.1563,287.5313 Q2228.6563,287.5313 2227.3281,285.8906 Q2226.0156,284.2344 2226.0156,281.1094 Q2226.0156,277.9844 2227.3281,276.3281 Q2228.6563,274.6719 2231.1563,274.6719 Q2231.8594,274.6719 2232.5,274.8281 Q2233.1563,274.9844 2233.7188,275.2813 L2233.7188,278 Q2233.0938,277.4219 2232.5,277.1563 Q2231.9063,276.875 2231.2813,276.875 Q2229.9375,276.875 2229.25,277.9531 Q2228.5625,279.0156 2228.5625,281.1094 Q2228.5625,283.2031 2229.25,284.2813 Q2229.9375,285.3438 2231.2813,285.3438 Q2231.9063,285.3438 2232.5,285.0781 Q2233.0938,284.7969 2233.7188,284.2188 L2233.7188,286.9375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="2251.25" y="286.1436">ModeEcologique</text><line style="stroke:#181818;stroke-width:0.5;" x1="2153.5" x2="2432.5" y1="297.2969" y2="297.2969"/><ellipse cx="2163.5" cy="310.9453" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="153" x="2172.5" y="314.292">BilanCarbone : double</text><line style="stroke:#181818;stroke-width:0.5;" x1="2153.5" x2="2432.5" y1="321.5938" y2="321.5938"/><ellipse cx="2163.5" cy="335.2422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="255" x="2172.5" y="338.5889">ActionEcologique(typeAction : string)</text><ellipse cx="2163.5" cy="351.5391" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="227" x="2172.5" y="354.8857">CalculerImpactEnvironnemental()</text></g><!--MD5=[30e169bbbb8d0e469011b07501de72ff]
+class SaveManager--><g id="elem_SaveManager"><rect codeLine="210" fill="#F1F1F1" height="72.5938" id="SaveManager" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.5;" width="531" x="22.5" y="277.2969"/><ellipse cx="237.25" cy="293.2969" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M240.2188,298.9375 Q239.6406,299.2344 239,299.375 Q238.3594,299.5313 237.6563,299.5313 Q235.1563,299.5313 233.8281,297.8906 Q232.5156,296.2344 232.5156,293.1094 Q232.5156,289.9844 233.8281,288.3281 Q235.1563,286.6719 237.6563,286.6719 Q238.3594,286.6719 239,286.8281 Q239.6563,286.9844 240.2188,287.2813 L240.2188,290 Q239.5938,289.4219 239,289.1563 Q238.4063,288.875 237.7813,288.875 Q236.4375,288.875 235.75,289.9531 Q235.0625,291.0156 235.0625,293.1094 Q235.0625,295.2031 235.75,296.2813 Q236.4375,297.3438 237.7813,297.3438 Q238.4063,297.3438 239,297.0781 Q239.5938,296.7969 240.2188,296.2188 L240.2188,298.9375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="257.75" y="298.1436">SaveManager</text><line style="stroke:#181818;stroke-width:0.5;" x1="23.5" x2="552.5" y1="309.2969" y2="309.2969"/><ellipse cx="33.5" cy="322.9453" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="505" x="42.5" y="326.292">SauvegarderPartie(etatDuJeu : GameState) ' Assuming a GameState class</text><ellipse cx="33.5" cy="339.2422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="194" x="42.5" y="342.5889">ChargerPartie() : GameState</text></g><!--MD5=[48e88c162c5505361c629eb6ff3812a8]
+class GameState--><g id="elem_GameState"><rect codeLine="214" fill="#F1F1F1" height="32" id="GameState" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.5;" width="109" x="233.5" y="543.2969"/><ellipse cx="248.5" cy="559.2969" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M251.4688,564.9375 Q250.8906,565.2344 250.25,565.375 Q249.6094,565.5313 248.9063,565.5313 Q246.4063,565.5313 245.0781,563.8906 Q243.7656,562.2344 243.7656,559.1094 Q243.7656,555.9844 245.0781,554.3281 Q246.4063,552.6719 248.9063,552.6719 Q249.6094,552.6719 250.25,552.8281 Q250.9063,552.9844 251.4688,553.2813 L251.4688,556 Q250.8438,555.4219 250.25,555.1563 Q249.6563,554.875 249.0313,554.875 Q247.6875,554.875 247,555.9531 Q246.3125,557.0156 246.3125,559.1094 Q246.3125,561.2031 247,562.2813 Q247.6875,563.3438 249.0313,563.3438 Q249.6563,563.3438 250.25,563.0781 Q250.8438,562.7969 251.4688,562.2188 L251.4688,564.9375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="262.5" y="564.1436">GameState</text></g><!--MD5=[4a159485558d6e7a1383dda794aa97d9]
+class Saison.TypeSaison--><g id="elem_Saison.TypeSaison"><rect fill="#F1F1F1" height="32" id="Saison.TypeSaison" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.5;" width="112" x="3343" y="1184.2969"/><ellipse cx="3358" cy="1200.2969" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M3360.9688,1205.9375 Q3360.3906,1206.2344 3359.75,1206.375 Q3359.1094,1206.5313 3358.4063,1206.5313 Q3355.9063,1206.5313 3354.5781,1204.8906 Q3353.2656,1203.2344 3353.2656,1200.1094 Q3353.2656,1196.9844 3354.5781,1195.3281 Q3355.9063,1193.6719 3358.4063,1193.6719 Q3359.1094,1193.6719 3359.75,1193.8281 Q3360.4063,1193.9844 3360.9688,1194.2813 L3360.9688,1197 Q3360.3438,1196.4219 3359.75,1196.1563 Q3359.1563,1195.875 3358.5313,1195.875 Q3357.1875,1195.875 3356.5,1196.9531 Q3355.8125,1198.0156 3355.8125,1200.1094 Q3355.8125,1202.2031 3356.5,1203.2813 Q3357.1875,1204.3438 3358.5313,1204.3438 Q3359.1563,1204.3438 3359.75,1204.0781 Q3360.3438,1203.7969 3360.9688,1203.2188 L3360.9688,1205.9375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="3372" y="1205.1436">TypeSaison</text></g><g id="elem_GMN227"><path d="M3741,304.7969 L3741,309.7969 L3629.04,313.7969 L3741,317.7969 L3741,322.9297 A3.5,3.5 0 0 0 3744.5,326.4297 L3953.5,326.4297 A3.5,3.5 0 0 0 3957,322.9297 L3957,311.2969 L3947,301.2969 L3744.5,301.2969 A3.5,3.5 0 0 0 3741,304.7969 " fill="#7FFFD4" style="stroke:#181818;stroke-width:1.5;"/><path d="M3947,301.2969 L3947,309.5469 A1.75,1.75 0 0 0 3948.75,311.2969 L3957,311.2969 L3947,301.2969 " fill="#7FFFD4" style="stroke:#181818;stroke-width:1.5;"/><text fill="#454645" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="195" x="3747" y="318.3638">System.EventArgs est externe</text></g><!--MD5=[e5a223ad7d1b996643ec3b30b4445936]
+reverse link Plante to PlanteComestible--><g id="link_Plante_PlanteComestible"><path codeLine="113" d="M2471.77,984.5169 C2384.28,1025.1269 2303.82,1061.7669 2293,1064.2969 C2263.34,1071.2369 2046.69,1059.6069 2019,1072.2969 C1977.33,1091.3969 1943.93,1133.2569 1923.86,1163.7069 " fill="none" id="Plante-backto-PlanteComestible" style="stroke:#454645;stroke-width:1.0;"/><polygon fill="none" points="2468.84,978.1569,2489.93,976.0769,2474.74,990.8569,2468.84,978.1569" style="stroke:#454645;stroke-width:1.0;"/></g><!--MD5=[1c6607d9d721f9761b7cf963b08fec9f]
+reverse link PlanteComestible to Tomate--><g id="link_PlanteComestible_Tomate"><path codeLine="118" d="M1887.23,1256.4969 C1873,1306.3069 1853.01,1376.2769 1844.32,1406.6869 " fill="none" id="PlanteComestible-backto-Tomate" style="stroke:#454645;stroke-width:1.0;"/><polygon fill="none" points="1880.51,1254.5269,1892.74,1237.2169,1893.97,1258.3669,1880.51,1254.5269" style="stroke:#454645;stroke-width:1.0;"/></g><!--MD5=[e1eca15c01e8354f84419a6258dd7557]
+reverse link PlanteComestible to Carotte--><g id="link_PlanteComestible_Carotte"><path codeLine="120" d="M1917.1,1256.8269 C1929.75,1306.6169 1947.46,1376.3469 1955.16,1406.6869 " fill="none" id="PlanteComestible-backto-Carotte" style="stroke:#454645;stroke-width:1.0;"/><polygon fill="none" points="1910.26,1258.3269,1912.12,1237.2169,1923.83,1254.8769,1910.26,1258.3269" style="stroke:#454645;stroke-width:1.0;"/></g><!--MD5=[a18e9d255c1cc6d6eabc89dcf68609bb]
+reverse link Plante to PlanteAromatique--><g id="link_Plante_PlanteAromatique"><path codeLine="124" d="M2471.55,1012.3369 C2427.07,1033.0669 2380.07,1051.6669 2334,1064.2969 C2307.16,1071.6569 2233.48,1059.0469 2209,1072.2969 C2162.51,1097.4669 2132.32,1156.3169 2120.13,1184.1769 " fill="none" id="Plante-backto-PlanteAromatique" style="stroke:#454645;stroke-width:1.0;"/><polygon fill="none" points="2468.71,1005.9369,2489.78,1003.6569,2474.73,1018.5769,2468.71,1005.9369" style="stroke:#454645;stroke-width:1.0;"/></g><!--MD5=[379f2a8096a99c1a6cfd540ec3b710c8]
+reverse link PlanteAromatique to Menthe--><g id="link_PlanteAromatique_Menthe"><path codeLine="128" d="M2114,1236.4969 C2114,1285.3569 2114,1371.6569 2114,1406.5369 " fill="none" id="PlanteAromatique-backto-Menthe" style="stroke:#454645;stroke-width:1.0;"/><polygon fill="none" points="2107,1236.4569,2114,1216.4569,2121,1236.4569,2107,1236.4569" style="stroke:#454645;stroke-width:1.0;"/></g><!--MD5=[61454d9e9678b47752f8c352dd21f55b]
+reverse link Plante to PlanteCommerciale--><g id="link_Plante_PlanteCommerciale"><path codeLine="132" d="M2522.91,1030.3769 C2506.33,1044.5069 2489.84,1058.6269 2474,1072.2969 C2434.5,1106.3769 2389.48,1146.2469 2360.45,1172.0969 " fill="none" id="Plante-backto-PlanteCommerciale" style="stroke:#454645;stroke-width:1.0;"/><polygon fill="none" points="2518.38,1025.0469,2538.15,1017.4169,2527.45,1035.7069,2518.38,1025.0469" style="stroke:#454645;stroke-width:1.0;"/></g><!--MD5=[0127e59201a081b92238d616e6cbd6d8]
+reverse link PlanteCommerciale to Coton--><g id="link_PlanteCommerciale_Coton"><path codeLine="136" d="M2330,1248.5969 C2330,1298.5769 2330,1374.5269 2330,1406.6269 " fill="none" id="PlanteCommerciale-backto-Coton" style="stroke:#454645;stroke-width:1.0;"/><polygon fill="none" points="2323,1248.3369,2330,1228.3369,2337,1248.3369,2323,1248.3369" style="stroke:#454645;stroke-width:1.0;"/></g><!--MD5=[474578657acd8e5ea3ca18cffbd867c9]
+reverse link Plante to PlanteOrnementale--><g id="link_Plante_PlanteOrnementale"><path codeLine="140" d="M2469.92,880.0269 C2272.96,896.2869 1994.24,942.8069 1787,1072.2969 C1741.78,1100.5469 1708.6,1156.8269 1694.5,1183.9569 " fill="none" id="Plante-backto-PlanteOrnementale" style="stroke:#454645;stroke-width:1.0;"/><polygon fill="none" points="2469.43,873.0469,2489.92,878.4569,2470.53,887.0069,2469.43,873.0469" style="stroke:#454645;stroke-width:1.0;"/></g><!--MD5=[63ff65406f8402cd137fd7d594d35255]
+reverse link PlanteOrnementale to Rosier--><g id="link_PlanteOrnementale_Rosier"><path codeLine="144" d="M1687,1236.4969 C1687,1285.3569 1687,1371.6569 1687,1406.5369 " fill="none" id="PlanteOrnementale-backto-Rosier" style="stroke:#454645;stroke-width:1.0;"/><polygon fill="none" points="1680,1236.4569,1687,1216.4569,1694,1236.4569,1680,1236.4569" style="stroke:#454645;stroke-width:1.0;"/></g><!--MD5=[c9695d3ef3eab81a49048983dbacbc80]
+reverse link Terrain to Plaine--><g id="link_Terrain_Plaine"><path codeLine="150" d="M3224.96,966.3369 C3265.72,1004.2269 3317.6,1043.7569 3373,1064.2969 C3391.29,1071.0769 3707.86,1061.3469 3724,1072.2969 C3762.08,1098.1069 3773.41,1156.6369 3776.7,1184.2969 " fill="none" id="Terrain-backto-Plaine" style="stroke:#454645;stroke-width:1.0;"/><polygon fill="none" points="3220.09,971.3669,3210.46,952.4969,3229.76,961.2469,3220.09,971.3669" style="stroke:#454645;stroke-width:1.0;"/></g><!--MD5=[18cf99fcc78eee462c582bfe8b96485e]
+reverse link Terrain to Montagne--><g id="link_Terrain_Montagne"><path codeLine="152" d="M3191.74,969.7469 C3216.73,1006.0269 3250.15,1043.4169 3291,1064.2969 C3327.05,1082.7269 3438.73,1050.7369 3473,1072.2969 C3513.64,1097.8669 3531.57,1156.5169 3538,1184.2469 " fill="none" id="Terrain-backto-Montagne" style="stroke:#454645;stroke-width:1.0;"/><polygon fill="none" points="3185.64,973.2269,3180.5,952.6669,3197.34,965.5269,3185.64,973.2269" style="stroke:#454645;stroke-width:1.0;"/></g><!--MD5=[8cd0d8064eba0785bb7f02ab0a4f365e]
+reverse link Terrain to Desert--><g id="link_Terrain_Desert"><path codeLine="154" d="M3208.45,967.6369 C3241.31,1004.9169 3283.91,1043.6369 3332,1064.2969 C3360.39,1076.4969 3584.3,1055.1369 3610,1072.2969 C3648.59,1098.0669 3661.36,1156.6169 3665.33,1184.2869 " fill="none" id="Terrain-backto-Desert" style="stroke:#454645;stroke-width:1.0;"/><polygon fill="none" points="3203.07,972.1269,3195.43,952.3569,3213.73,963.0469,3203.07,972.1269" style="stroke:#454645;stroke-width:1.0;"/></g><!--MD5=[11b902c269430752c8263d2b2a772e12]
+reverse link System.EventArgs to AlerteEventArgs--><g id="link_System.EventArgs_AlerteEventArgs"><path d="M3708.32,149.8069 C3674.04,186.9869 3616.13,249.7669 3583.09,285.5969 " fill="none" id="System.EventArgs-backto-AlerteEventArgs" style="stroke:#454645;stroke-width:1.0;"/><polygon fill="none" points="3703.33,144.8969,3722.03,134.9369,3713.62,154.3869,3703.33,144.8969" style="stroke:#454645;stroke-width:1.0;"/></g><!--MD5=[427914b47d82077d9f143863008a58d0]
+reverse link Obstacle to Puceron--><g id="link_Obstacle_Puceron"><path codeLine="184" d="M3452.3,178.3069 C3438.34,219.7269 3420.65,272.2769 3412.09,297.6769 " fill="none" id="Obstacle-backto-Puceron" style="stroke:#454645;stroke-width:1.0;"/><polygon fill="none" points="3445.67,176.0369,3458.69,159.3169,3458.94,180.5069,3445.67,176.0369" style="stroke:#454645;stroke-width:1.0;"/></g><!--MD5=[9e397ad5e8af7db53be5220162a1fee8]
+link Program to Temps--><g id="link_Program_Temps"><path codeLine="223" d="M2627.5,146.8969 C2640.54,151.9269 2654.53,156.4869 2668,159.2969 C2895.63,206.8369 3481.91,174.8669 3714,189.2969 C3830.31,196.5269 3883.12,142.6269 3975,214.2969 C4011.63,242.8669 4010,266.3369 4010,312.7969 C4010,312.7969 4010,312.7969 4010,872.2969 C4010,943.6169 4167.47,1075.7869 4261.48,1148.3469 " fill="none" id="Program-to-Temps" style="stroke:#454645;stroke-width:1.0;"/><polygon fill="#454645" points="4265.63,1151.5369,4260.9187,1142.888,4261.661,1148.4959,4256.0531,1149.2383,4265.63,1151.5369" style="stroke:#454645;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="29" x="4011" y="563.8638">gère</text></g><!--MD5=[e8a0ba4caa5f8bfe8f6808b8e722062b]
+link Program to Affichage--><g id="link_Program_Affichage"><path codeLine="224" d="M2631.53,146.8569 C2643.47,151.4669 2656.01,155.8569 2668,159.2969 C2802.94,197.9669 2847.09,166.3169 2979,214.2969 C3007.31,224.5869 3036.34,239.4369 3062.26,254.4869 " fill="none" id="Program-to-Affichage" style="stroke:#454645;stroke-width:1.0;"/><polygon fill="#454645" points="3066.72,257.0969,3060.9779,249.0951,3062.4063,254.5686,3056.9327,255.997,3066.72,257.0969" style="stroke:#454645;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="37" x="2949" y="202.3638">utilise</text></g><!--MD5=[8e62df6c9fa100eff58418fb4be3e507]
+link Program to Parcelle--><g id="link_Program_Parcelle"><path codeLine="225" d="M2581.37,147.0269 C2602.69,197.1869 2651.13,307.0469 2702,394.2969 C2715.89,418.1269 2732.16,442.9869 2747.98,465.9269 " fill="none" id="Program-to-Parcelle" style="stroke:#454645;stroke-width:1.0;"/><polygon fill="#454645" points="2750.93,470.1869,2749.1046,460.5087,2748.0877,466.0733,2742.523,465.0564,2750.93,470.1869" style="stroke:#454645;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="61" x="2703" y="318.3638">crée/gère</text></g><!--MD5=[aad1c6e216b626596600a6b9167e22fa]
+link Program to Pays--><g id="link_Program_Pays"><path codeLine="226" d="M2627.51,146.8269 C2640.56,151.8669 2654.54,156.4369 2668,159.2969 C2774.58,181.9069 3562.53,145.4869 3647,214.2969 C3714.46,269.2469 3684.91,316.5569 3724,394.2969 C3782.69,511.0269 3780.37,555.1569 3872,648.2969 C4002.69,781.1469 4492.68,1046.5469 4694.88,1153.2769 " fill="none" id="Program-to-Pays" style="stroke:#454645;stroke-width:1.0;"/><polygon fill="#454645" points="4699.31,1155.6169,4693.2355,1147.8644,4694.8935,1153.2728,4689.4851,1154.9308,4699.31,1155.6169" style="stroke:#454645;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="93" x="3873" y="563.8638">configure avec</text></g><!--MD5=[4cb76543afb368a9395460e6dbf25e9d]
+reverse link Temps to Saison--><g id="link_Temps_Saison"><path codeLine="228" d="M4461.47,1253.7169 C4553.15,1290.2769 4674.48,1338.6569 4763.43,1374.1169 " fill="none" id="Temps-backto-Saison" style="stroke:#454645;stroke-width:1.0;"/><polygon fill="none" points="4449.31,1248.8669,4453.4038,1254.8033,4460.4581,1253.3077,4456.3643,1247.3712,4449.31,1248.8669" style="stroke:#454645;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="36" x="4657" y="1328.3638">a une</text></g><!--MD5=[4fe382f2cef6d5681c6ee659a6e812f6]
+reverse link Temps to Temperature--><g id="link_Temps_Temperature"><path codeLine="229" d="M4263.89,1257.3669 C4224.57,1290.7069 4174.87,1332.8569 4135.64,1366.1269 " fill="none" id="Temps-backto-Temperature" style="stroke:#454645;stroke-width:1.0;"/><polygon fill="none" points="4273.9,1248.8669,4266.7364,1249.6936,4264.7444,1256.6241,4271.9079,1255.7974,4273.9,1248.8669" style="stroke:#454645;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="4193" y="1328.3638">gère la</text></g><!--MD5=[e7e21ba493a3a13c810a92ff5825dae8]
+reverse link Temps to Precipitations--><g id="link_Temps_Precipitations"><path codeLine="230" d="M4376.29,1259.2869 C4402.65,1292.3169 4435.52,1333.4869 4461.57,1366.1269 " fill="none" id="Temps-backto-Precipitations" style="stroke:#454645;stroke-width:1.0;"/><polygon fill="none" points="4367.97,1248.8669,4368.5836,1256.0518,4375.4518,1258.2489,4374.8383,1251.0639,4367.97,1248.8669" style="stroke:#454645;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="51" x="4434" y="1328.3638">gère les</text></g><!--MD5=[70d560f13b2be96b56b2483758ed6496]
+link Temps to Affichage--><g id="link_Temps_Affichage"><path codeLine="231" d="M4283.64,1151.5769 C4252.5,1122.9369 4208.89,1088.9169 4163,1072.2969 C4125.56,1058.7369 4022.84,1073.0869 3984,1064.2969 C3931.75,1052.4669 3911.65,1054.3969 3873,1017.2969 C3769.44,917.8969 3826.45,835.9369 3735,725.2969 C3591.94,552.2169 3512.52,553.8069 3327,427.2969 C3300.44,409.1869 3271.16,390.1869 3244.18,373.0669 " fill="none" id="Temps-to-Affichage" style="stroke:#454645;stroke-width:1.0;"/><polygon fill="#454645" points="3239.87,370.3369,3245.3424,378.5255,3244.0971,373.0074,3249.6152,371.7621,3239.87,370.3369" style="stroke:#454645;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="76" x="3710" y="691.3638">met à jour l'</text></g><!--MD5=[b3c86bf194498e2017742e03a24f5f34]
+link Temps to Parcelle--><g id="link_Temps_Parcelle"><path codeLine="232" d="M4284.13,1151.4969 C4253.03,1122.6169 4209.28,1088.3769 4163,1072.2969 C4117.65,1056.5469 3778.47,1071.4569 3731,1064.2969 C3656.45,1053.0569 3630.95,1058.7969 3568,1017.2969 C3427.98,924.9969 3467.6,819.7169 3329,725.2969 C3328.57,724.9969 3166.49,672.8869 3024.65,627.3169 " fill="none" id="Temps-to-Parcelle" style="stroke:#454645;stroke-width:1.0;"/><polygon fill="#454645" points="3019.61,625.6969,3026.9606,632.2519,3024.3716,627.2223,3029.4013,624.6334,3019.61,625.6969" style="stroke:#454645;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="161" x="3569" y="875.8638">déclenche croissance sur</text></g><!--MD5=[5a86619ecbd2182fcdd7e4c142a88c45]
+reverse link Parcelle to Terrain--><g id="link_Parcelle_Terrain"><path codeLine="234" d="M2917.09,657.3169 C2961.63,700.0669 3013.35,749.6969 3055.64,790.2869 " fill="none" id="Parcelle-backto-Terrain" style="stroke:#454645;stroke-width:1.0;"/><polygon fill="#454645" points="2907.69,648.2969,2909.2522,655.3367,2916.3514,656.6023,2914.7892,649.5625,2907.69,648.2969" style="stroke:#454645;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="103" x="2949" y="691.3638">est d'un type de</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="2907.2259" y="668.6463">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="3039.5865" y="779.1968">1</text></g><!--MD5=[478d8b7ef664653d1b40f4ebf8520f7a]
+reverse link Parcelle to Plante--><g id="link_Parcelle_Plante"><path codeLine="235" d="M2781.93,660.8869 C2774.97,681.4369 2767.52,703.4369 2760.15,725.1769 " fill="none" id="Parcelle-backto-Plante" style="stroke:#454645;stroke-width:1.0;"/><polygon fill="none" points="2786.19,648.2969,2780.4764,652.6963,2782.3399,659.6625,2788.0535,655.263,2786.19,648.2969" style="stroke:#454645;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="52" x="2776" y="691.3638">contient</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="2775.2845" y="668.6463">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="24" x="2738.0655" y="714.3145">0..1</text></g><!--MD5=[8b758302351f3aca3b48129f6505cd59]
+reverse link ConditionsEnvironnementales to Temperature--><g id="link_ConditionsEnvironnementales_Temperature"><path codeLine="238" d="M2922.3,1235.5769 C3181.3,1277.6069 3616.93,1348.2869 3870.45,1389.4169 " fill="none" id="ConditionsEnvironnementales-backto-Temperature" style="stroke:#454645;stroke-width:1.0;"/><polygon fill="#454645" points="2909.34,1233.4769,2914.6203,1238.3879,2921.1845,1235.4026,2915.9041,1230.4916,2909.34,1233.4769" style="stroke:#454645;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="34" x="3513" y="1328.3638">inclut</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="2917.2439" y="1231.54">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="3854.4988" y="1384.8858">1</text></g><!--MD5=[5aca29cd609c576cbd4071a6b5cac637]
+reverse link ConditionsEnvironnementales to Precipitations--><g id="link_ConditionsEnvironnementales_Precipitations"><path codeLine="239" d="M2922.49,1234.8469 C3040.92,1252.7669 3191.41,1274.0869 3326,1288.7969 C3751.82,1335.3269 3864.88,1289.4869 4287,1362.2969 C4293.99,1363.5069 4301.08,1364.8369 4308.22,1366.2669 " fill="none" id="ConditionsEnvironnementales-backto-Precipitations" style="stroke:#454645;stroke-width:1.0;"/><polygon fill="#454645" points="2909.31,1232.8469,2914.6397,1237.7043,2921.1733,1234.6527,2915.8436,1229.7954,2909.31,1232.8469" style="stroke:#454645;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="34" x="4066" y="1328.3638">inclut</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="2917.2127" y="1246.4714">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="4289.1852" y="1359.8306">1</text></g><!--MD5=[0f3b9a30a33b8b7cd2f884e9b7b5ee53]
+link Plante to Saison.TypeSaison--><g id="link_Plante_Saison.TypeSaison"><path codeLine="242" d="M2932.05,1010.3569 C2937.71,1012.7869 2943.36,1015.1069 2949,1017.2969 C3050.75,1056.7469 3081.73,1050.6369 3190,1064.2969 C3205.13,1066.2069 3314.05,1064.2369 3327,1072.2969 C3365.89,1096.5069 3385.76,1149.8369 3394.08,1179.1069 " fill="none" id="Plante-to-Saison.TypeSaison" style="stroke:#454645;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#454645" points="3395.5,1184.2769,3396.9691,1174.5382,3394.1736,1179.456,3389.2557,1176.6605,3395.5,1184.2769" style="stroke:#454645;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="68" x="3191" y="1060.3638">dépend de</text></g><!--MD5=[33351c18845e24672495253e3af57fe4]
+link Plante to TypeTerrain--><g id="link_Plante_TypeTerrain"><path codeLine="243" d="M2932.12,1011.2569 C2937.74,1013.4069 2943.37,1015.4269 2949,1017.2969 C3084.15,1062.1569 3126.4,1032.2269 3268,1047.2969 C3331.64,1054.0669 3347.15,1059.9069 3411,1064.2969 C3434.28,1065.8969 3808.85,1064.9369 3831,1072.2969 C3858.14,1081.3169 3884.7,1096.0869 3908.64,1112.4269 " fill="none" id="Plante-to-TypeTerrain" style="stroke:#454645;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#454645" points="3912.77,1115.2769,3907.6395,1106.8698,3908.6565,1112.4345,3903.0918,1113.4515,3912.77,1115.2769" style="stroke:#454645;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="66" x="3412" y="1060.3638">préfère un</text></g><!--MD5=[eabf467def9eb25a71e8e94cc0fee032]
+link Plante to ConditionsEnvironnementales--><g id="link_Plante_ConditionsEnvironnementales"><path codeLine="244" d="M2711,1017.6269 C2711,1056.8069 2711,1097.4069 2711,1130.2569 " fill="none" id="Plante-to-ConditionsEnvironnementales" style="stroke:#454645;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#454645" points="2711,1135.4569,2715,1126.4569,2711,1130.4569,2707,1126.4569,2711,1135.4569" style="stroke:#454645;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="64" x="2712" y="1060.3638">réagit aux</text></g><!--MD5=[d14d10efaa9d094404c91bb2e24d4a09]
+link Affichage to Parcelle--><g id="link_Affichage_Parcelle"><path codeLine="247" d="M3073.79,370.3569 C3034.53,398.9769 2985.65,434.6169 2941.04,467.1369 " fill="none" id="Affichage-to-Parcelle" style="stroke:#454645;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#454645" points="2936.74,470.2769,2946.3704,468.2142,2940.7824,467.3343,2941.6624,461.7463,2936.74,470.2769" style="stroke:#454645;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="64" x="3023" y="415.3638">affiche les</text></g><!--MD5=[cf73863a345defbcd1298505f1c0f5bb]
+link Affichage to Plante--><g id="link_Affichage_Plante"><path codeLine="248" d="M3153.55,370.5869 C3155.57,452.9769 3146.55,606.9669 3061,695.2969 C3025.15,732.3169 2996.37,705.0169 2949,725.2969 C2945,727.0069 2940.99,728.7769 2936.98,730.5969 " fill="none" id="Affichage-to-Plante" style="stroke:#454645;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#454645" points="2932.26,732.7569,2942.1081,732.6368,2936.804,730.6706,2938.7702,725.3665,2932.26,732.7569" style="stroke:#454645;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="64" x="3153" y="563.8638">dessine la</text></g><!--MD5=[8e5c47c053fa1d10ef0e19742e67cc8d]
+link Webcam to ConditionsEnvironnementales--><g id="link_Webcam_ConditionsEnvironnementales"><path codeLine="251" d="M2870.73,159.4269 C2848.27,168.4569 2825.1,178.5769 2804,189.2969 C2785.65,198.6269 2779.93,200.1169 2765,214.2969 C2693.63,282.0669 2716.56,337.7569 2636,394.2969 C2591.78,425.3369 2554.88,386.8969 2519,427.2969 C2475.33,476.4669 2442.81,958.3669 2472,1017.2969 C2495.66,1065.0569 2538.53,1103.6969 2581.49,1132.8769 " fill="none" id="Webcam-to-ConditionsEnvironnementales" style="stroke:#454645;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#454645" points="2585.64,1135.6669,2580.3901,1127.3339,2581.4863,1132.8835,2575.9367,1133.9797,2585.64,1135.6669" style="stroke:#454645;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="74" x="2520" y="563.8638">surveille les</text></g><!--MD5=[cf9c6824035daa6a13c496e877da72e4]
+link Webcam to Parcelle--><g id="link_Webcam_Parcelle"><path codeLine="252" d="M2865.55,159.5269 C2841.86,173.1169 2819.97,190.9969 2806,214.2969 C2760.91,289.4769 2770.79,391.4869 2787.45,464.8669 " fill="none" id="Webcam-to-Parcelle" style="stroke:#454645;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#454645" points="2788.66,470.1069,2790.5255,460.4363,2787.5315,465.2359,2782.732,462.2419,2788.66,470.1069" style="stroke:#454645;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="74" x="2807" y="318.3638">surveille les</text></g><!--MD5=[ee3ac1ef0eaee388b4d5a9bfe21b37b1]
+link Webcam to AlerteEventArgs--><g id="link_Webcam_AlerteEventArgs"><path codeLine="253" d="M3267.31,159.2969 C3352.52,174.5269 3433.12,193.3469 3470,214.2969 C3498.41,230.4369 3522.46,259.1269 3538.2,281.3969 " fill="none" id="Webcam-to-AlerteEventArgs" style="stroke:#454645;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#454645" points="3541.24,285.7569,3539.3919,276.083,3538.388,281.65,3532.821,280.6461,3541.24,285.7569" style="stroke:#454645;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="65" x="3450" y="202.3638">déclenche</text></g><!--MD5=[ff692f2e126234bbdde428592b5d8a74]
+link Obstacle to Parcelle--><g id="link_Obstacle_Parcelle"><path codeLine="256" d="M3315.19,156.6069 C3309.73,157.5669 3304.33,158.4669 3299,159.2969 C3221.43,171.3969 3007.88,139.7269 2947,189.2969 C2873.28,249.3169 2918.27,304.8769 2886,394.2969 C2877.61,417.5369 2867.65,442.2369 2857.91,465.2169 " fill="none" id="Obstacle-to-Parcelle" style="stroke:#454645;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#454645" points="2855.84,470.0869,2863.0442,463.3713,2857.7975,465.486,2855.6828,460.2393,2855.84,470.0869" style="stroke:#454645;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="2922" y="318.3638">affecte</text></g><!--MD5=[ff0cb1cbd06ce4691cda470c04aa96e9]
+link Program to ModeUrgence--><g id="link_Program_ModeUrgence"><path codeLine="259" d="M2489.94,131.5569 C2401.53,145.8269 2255.71,173.2069 2135,214.2969 C2102.28,225.4369 2067.93,240.2869 2036.78,255.0769 " fill="none" id="Program-to-ModeUrgence" style="stroke:#454645;stroke-width:1.0;"/><polygon fill="#454645" points="2032.21,257.2569,2042.0558,257.011,2036.7269,255.1128,2038.6252,249.7839,2032.21,257.2569" style="stroke:#454645;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="29" x="2218" y="202.3638">gère</text></g><!--MD5=[4fa6612acec6c1299a01f60eded2bf23]
+link Program to ModeMagasin--><g id="link_Program_ModeMagasin"><path codeLine="260" d="M2489.93,120.7369 C2211.61,124.6069 1287.59,142.6769 1001,214.2969 C964.02,223.5369 925.59,239.0269 891.62,255.0269 " fill="none" id="Program-to-ModeMagasin" style="stroke:#454645;stroke-width:1.0;"/><polygon fill="#454645" points="887.08,257.1769,896.9258,256.931,891.5969,255.0328,893.4952,249.7039,887.08,257.1769" style="stroke:#454645;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="29" x="1129" y="202.3638">gère</text></g><!--MD5=[a908abb97060d4453f9c9044744d247a]
+link Program to ModeIA--><g id="link_Program_ModeIA"><path codeLine="261" d="M2489.89,124.4769 C2338.29,134.2669 1999.5,160.5869 1719,214.2969 C1625.71,232.1569 1521.21,261.9769 1449.12,284.1369 " fill="none" id="Program-to-ModeIA" style="stroke:#454645;stroke-width:1.0;"/><polygon fill="#454645" points="1443.98,285.7169,1453.7591,286.887,1448.758,284.2434,1451.4016,279.2423,1443.98,285.7169" style="stroke:#454645;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="37" x="1859" y="202.3638">utilise</text></g><!--MD5=[e920514d77252c5e4145a842ad3802b5]
+link Program to ModeEcologique--><g id="link_Program_ModeEcologique"><path codeLine="262" d="M2531.19,146.8369 C2488.38,176.6669 2418.54,225.3269 2365.53,262.2569 " fill="none" id="Program-to-ModeEcologique" style="stroke:#454645;stroke-width:1.0;"/><polygon fill="#454645" points="2361.42,265.1269,2371.0909,263.263,2365.5222,262.2682,2366.517,256.6995,2361.42,265.1269" style="stroke:#454645;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="29" x="2466" y="202.3638">gère</text></g><!--MD5=[f8c9280a81e1df2245bdc25e5dea2061]
+link Program to SaveManager--><g id="link_Program_SaveManager"><path codeLine="263" d="M2489.79,120.3969 C2165.09,123.3469 947.73,139.2469 571,214.2969 C503.65,227.7169 430.5,253.4869 375.45,275.3069 " fill="none" id="Program-to-SaveManager" style="stroke:#454645;stroke-width:1.0;"/><polygon fill="#454645" points="370.51,277.2669,380.3519,277.6383,375.1524,275.4099,377.3807,270.2105,370.51,277.2669" style="stroke:#454645;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="37" x="734" y="202.3638">utilise</text></g><!--MD5=[8a3d1a88bace1f944f421c0fd756fb9c]
+link ModeUrgence to Parcelle--><g id="link_ModeUrgence_Parcelle"><path codeLine="265" d="M2052.63,370.3469 C2079.34,380.0069 2107.73,388.7369 2135,394.2969 C2228.26,413.3169 2254.58,390.3369 2349,402.2969 C2384.2,406.7569 2391.83,414.6069 2427,419.2969 C2461.85,423.9469 2551.24,417.4769 2585,427.2969 C2617.49,436.7569 2650.33,451.5569 2680.66,467.8569 " fill="none" id="ModeUrgence-to-Parcelle" style="stroke:#454645;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#454645" points="2685.12,470.2769,2679.1148,462.4706,2680.7245,467.8936,2675.3016,469.5034,2685.12,470.2769" style="stroke:#454645;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="87" x="2428" y="415.3638">interagit avec</text></g><!--MD5=[410eecc278cac17df17e82b8ebd70901]
+link ModeMagasin to Plante--><g id="link_ModeMagasin_Plante"><path codeLine="266" d="M927.91,370.3969 C952.1,378.9769 977.13,387.2969 1001,394.2969 C1564.74,559.6769 1734.9,491.7569 2292,678.2969 C2356.06,699.7469 2423.44,727.9269 2484.98,756.0769 " fill="none" id="ModeMagasin-to-Plante" style="stroke:#454645;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#454645" points="2489.77,758.2769,2483.2598,750.8865,2485.226,756.1906,2479.9219,758.1568,2489.77,758.2769" style="stroke:#454645;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="79" x="2187" y="563.8638">vend/achète</text></g><!--MD5=[514a40eb23eb0f089936adf36ec9abbe]
+link ModeIA to Parcelle--><g id="link_ModeIA_Parcelle"><path codeLine="267" d="M1456.99,341.8869 C1528.71,360.5369 1629.12,383.7869 1719,394.2969 C1778.27,401.2269 2198.03,388.1569 2256,402.2969 C2272.41,406.2969 2273.61,415.1969 2290,419.2969 C2353.62,435.2269 2521.82,409.7069 2585,427.2969 C2617.91,436.4569 2651.13,451.2969 2681.71,467.7469 " fill="none" id="ModeIA-to-Parcelle" style="stroke:#454645;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#454645" points="2686.21,470.1869,2680.2154,462.3725,2681.8178,467.7976,2676.3926,469.4,2686.21,470.1869" style="stroke:#454645;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="49" x="2291" y="415.3638">analyse</text></g><!--MD5=[4596e5f57597a62ebf75453034fff5ca]
+link ModeIA to ConditionsEnvironnementales--><g id="link_ModeIA_ConditionsEnvironnementales"><path codeLine="268" d="M1462.54,341.8269 C1533.94,359.5869 1631.64,381.7669 1719,394.2969 C1773.23,402.0769 2167.92,393.4469 2211,427.2969 C2444.42,610.7269 2192.03,864.9269 2412,1064.2969 C2424.79,1075.8869 2433.67,1066.6969 2450,1072.2969 C2497.7,1088.6469 2547.99,1111.6169 2591.55,1133.5369 " fill="none" id="ModeIA-to-ConditionsEnvironnementales" style="stroke:#454645;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#454645" points="2596.01,1135.7869,2589.788,1128.1523,2591.5494,1133.528,2586.1737,1135.2893,2596.01,1135.7869" style="stroke:#454645;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="49" x="2321" y="691.3638">analyse</text></g><!--MD5=[8beb2d2b1b81e7940388fbdc3921ef2d]
+link SaveManager to GameState--><g id="link_SaveManager_GameState"><path codeLine="269" d="M288,350.4669 C288,402.2969 288,496.7469 288,538.0569 " fill="none" id="SaveManager-to-GameState" style="stroke:#454645;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#454645" points="288,543.2869,292,534.2869,288,538.2869,284,534.2869,288,543.2869" style="stroke:#454645;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="124" x="289" y="415.3638">sérialise/désérialise</text></g><!--MD5=[69c20bb77bf82759c043f843defe4541]
+link Saison to TypeSaison--><g id="link_Saison_TypeSaison"><path codeLine="272" d="M4883,1471.7069 C4883,1494.2769 4883,1521.2169 4883,1544.2269 " fill="none" id="Saison-TypeSaison" style="stroke:#454645;stroke-width:1.0;"/></g><!--MD5=[e68068e74f2dd75dff3fb2e5a621f6fe]
+link Terrain to TypeTerrain--><g id="link_Terrain_TypeTerrain"><path codeLine="273" d="M3290.94,952.4269 C3386.76,1002.2569 3496.99,1058.0369 3522,1064.2969 C3555.32,1072.6369 3798.44,1061.3569 3831,1072.2969 C3859.5,1081.8769 3887.37,1097.7469 3912.25,1115.0869 " fill="none" id="Terrain-TypeTerrain" style="stroke:#454645;stroke-width:1.0;"/></g><!--MD5=[21a2d81f49c768f98df3b4b2d17926a8]
+link Pays to TypeClimat--><g id="link_Pays_TypeClimat"><path codeLine="274" d="M4858.66,1244.8969 C4911.02,1275.9369 4981.67,1319.5569 5041,1362.2969 C5046.92,1366.5669 5052.98,1371.1669 5058.96,1375.8569 " fill="none" id="Pays-TypeClimat" style="stroke:#454645;stroke-width:1.0;"/></g><!--MD5=[6c66a93d21f92d602906a87b8e089266]
+@startuml
+!theme vibrant
+hide empty members
+
+title Diagramme de Classes - Simulateur de Potager
+
+package "Core" {
+  abstract class Plante {
+    + Nom : string
+    + EstVivace : bool
+    + EstComestible : bool
+    # SaisonsSemis : List<Saison.TypeSaison>
+    # TerrainPrefere : TypeTerrain
+    # VitesseCroissance : double
+    # BesoinEau : int
+    # BesoinLuminosite : int
+    # TemperatureIdeale : Tuple<int, int>
+    + Sante : int
+    + Hauteur : double
+    + Age : int
+    + abstract Croitre(conditions : ConditionsEnvironnementales)
+    + abstract GetRepresentationConsole() : string
+    + DoitMourir(conditions : ConditionsEnvironnementales) : bool
+  }
+
+  abstract class Terrain {
+    + Type : string
+    # TypeDeSol : TypeTerrain
+    + Fertilite : double
+    # HumiditeMax : double
+    # Drainage : double
+    + abstract GetDescription() : string
+    + AppliquerPrecipitations(quantitePluie : double)
+  }
+
+  class Parcelle {
+    + X : int
+    + Y : int
+    + Humidite : double
+    + Fertilite : double
+    + EstPlantee : bool
+    + Planter(nouvellePlante : Plante) : bool
+    + Recolter()
+    + FaireCroitre(conditions : ConditionsEnvironnementales)
+  }
+
+  class ConditionsEnvironnementales {
+    + TemperatureActuelle : Temperature
+    + NiveauPrecipitation : Precipitations
+    + Luminosite : int
+    + ConditionsOptimalesPourPlante(plante : Plante) : bool
+    + EstTempeteViolente() : bool
+  }
+}
+
+package "GestionTempsEtEnvironnement" {
+  class Temps {
+    - semaineActuelle : int
+    + PasserSemaine()
+    + DemarrerJeu() ' Orchestrates game loop
+  }
+
+  class Saison {
+    + SaisonActuelle : TypeSaison
+    + AvancerSaison(semaineActuelle : int)
+    + GetNomSaison() : string
+  }
+  enum TypeSaison {
+    Printemps
+    Ete
+    Automne
+    Hiver
+  }
+
+  class Temperature {
+    + Valeur : int
+    + MettreAJourTemperature(saisonActuelle : TypeSaison)
+    + EstEnGel() : bool
+    + EstEnCanicule() : bool
+  }
+
+  class Precipitations {
+    + Niveau : int
+    + MettreAJourPrecipitations(saisonActuelle : TypeSaison)
+    + EstEnSecheresse(saison : TypeSaison) : bool
+    + EstEnInondation() : bool
+  }
+
+  class Pays {
+    + Nom : string
+    + SemisDisponibles : List<string>
+    + Climat : TypeClimat
+  }
+  enum TypeClimat {
+    Tropical
+    Tempere
+    Aride
+    Continental
+    Polaire
+  }
+  enum TypeTerrain {
+    Sable
+    Terre
+    Argile
+    Limon
+    TerreLimoneuse ' Example from Plaine
+    Rocheux ' Example for Montagne
+    CratereSol ' Example for Cratere
+    Desertique ' Example for Desert
+  }
+}
+
+package "Plantes" {
+  Plante <|- - PlanteComestible
+  abstract class PlanteComestible {
+    + ValeurNutritionnelle : int
+    + TempsDeMaturation : int
+  }
+  PlanteComestible <|- - Tomate
+  class Tomate {}
+  PlanteComestible <|- - Carotte
+  class Carotte {}
+  ' ... autres plantes comestibles
+
+  Plante <|- - PlanteAromatique
+  abstract class PlanteAromatique {
+    ' Specific properties if any
+  }
+  PlanteAromatique <|- - Menthe
+  class Menthe {}
+  ' ... autres plantes aromatiques
+
+  Plante <|- - PlanteCommerciale
+  abstract class PlanteCommerciale {
+    + ValeurMarchande : double
+  }
+  PlanteCommerciale <|- - Coton
+  class Coton {}
+  ' ... autres plantes commerciales
+
+  Plante <|- - PlanteOrnementale
+  abstract class PlanteOrnementale {
+    ' Specific properties if any
+  }
+  PlanteOrnementale <|- - Rosier
+  class Rosier {}
+  ' ... autres plantes ornementales
+}
+
+package "Terrains" {
+  Terrain <|- - Plaine
+  class Plaine {}
+  Terrain <|- - Montagne
+  class Montagne {}
+  Terrain <|- - Desert
+  class Desert {}
+  ' ... autres types de terrains
+}
+
+package "Systeme" {
+  class Program {
+    + {static} Main(args : string[])
+  }
+
+  class Affichage {
+    - grilleDuJardin : Parcelle[,]
+    + AfficherPlateau()
+    + AfficherMessage(message : string)
+    + DessinerPlante(plante: Plante) : string
+  }
+
+  class Webcam {
+    + VerifierJardin(conditions : ConditionsEnvironnementales, parcelles : List<Parcelle>)
+    + event AlerteDetectee
+  }
+  class AlerteEventArgs extends System.EventArgs {
+    + Message : string
+  }
+  ' System.EventArgs .[hidden]. AlerteEventArgs ' Hide System.EventArgs details <- - LIGNE SUPPRIMÉE
+
+  abstract class Obstacle {
+   + Nom : string
+   + abstract AppliquerEffet(parcelle : Parcelle)
+  }
+  Obstacle <|- - Puceron
+  class Puceron {}
+  ' ... autres obstacles
+}
+
+package "ModesDeJeu" {
+  class ModeUrgence {
+    + EstActif : bool
+    + DeclencherUrgence(type : string, message : string)
+    + AfficherActionsUrgence()
+    + GererActionJoueurUrgence()
+  }
+  class ModeMagasin {
+    + ArgentJoueur : double
+    + VendreRecolte(planteRecoltee : Plante, quantite : int)
+    + AcheterSemis(nomSemis : string, quantite : int)
+    + AfficherBilanComptable()
+  }
+  class ModeIA {
+    + ObtenirRecommandation(parcelle : Parcelle, conditions : ConditionsEnvironnementales) : string
+  }
+  class ModeEcologique {
+    + BilanCarbone : double
+    + ActionEcologique(typeAction : string)
+    + CalculerImpactEnvironnemental()
+  }
+  class SaveManager {
+    + SauvegarderPartie(etatDuJeu : GameState) ' Assuming a GameState class
+    + ChargerPartie() : GameState
+  }
+  class GameState {
+    ' Properties to save game state
+  }
+}
+
+
+' - - - Relations - - -
+
+' Core Gameplay
+Program - -> Temps : "gère"
+Program - -> Affichage : "utilise"
+Program - -> Parcelle : "crée/gère"
+Program - -> Pays : "configure avec"
+
+Temps o- - Saison : "a une"
+Temps o- - Temperature : "gère la"
+Temps o- - Precipitations : "gère les"
+Temps - -> Affichage : "met à jour l'"
+Temps - -> Parcelle : "déclenche croissance sur"
+
+Parcelle "1" *- - "1" Terrain : "est d'un type de"
+Parcelle "1" o- - "0..1" Plante : "contient"
+
+' Conditions
+ConditionsEnvironnementales "1" *- - "1" Temperature : "inclut"
+ConditionsEnvironnementales "1" *- - "1" Precipitations : "inclut"
+
+' Plante interactions
+Plante ..> Saison.TypeSaison : "dépend de"
+Plante ..> TypeTerrain : "préfère un"
+Plante ..> ConditionsEnvironnementales : "réagit aux"
+
+' Affichage
+Affichage ..> Parcelle : "affiche les"
+Affichage ..> Plante : "dessine la"
+
+' Webcam & Alertes
+Webcam ..> ConditionsEnvironnementales : "surveille les"
+Webcam ..> Parcelle : "surveille les"
+Webcam ..> AlerteEventArgs : "déclenche"
+
+' Obstacles
+Obstacle ..> Parcelle : "affecte"
+
+' Modes de Jeu
+Program - -> ModeUrgence : "gère"
+Program - -> ModeMagasin : "gère"
+Program - -> ModeIA : "utilise"
+Program - -> ModeEcologique : "gère"
+Program - -> SaveManager : "utilise"
+
+ModeUrgence ..> Parcelle : "interagit avec"
+ModeMagasin ..> Plante : "vend/achète"
+ModeIA ..> Parcelle : "analyse"
+ModeIA ..> ConditionsEnvironnementales : "analyse"
+SaveManager ..> GameState : "sérialise/désérialise"
+
+' Enum usage
+Saison - - TypeSaison
+Terrain - - TypeTerrain
+Pays - - TypeClimat
+
+' External
+note right of AlerteEventArgs : System.EventArgs est externe
+@enduml
+
+@startuml
+skinparam BackgroundColor FFFFFF
+skinparam shadowing false
+skinparam RoundCorner 7
+skinparam ArrowColor 454645
+skinparam FontColor 454645
+skinparam SequenceLifeLineBorderColor 696969
+skinparam SequenceGroupHeaderFontColor 454645
+skinparam SequenceGroupFontColor 696969
+skinparam SequenceGroupBorderColor 696969
+skinparam SequenceGroupBorderThickness 1
+
+skinparam sequenceDivider {
+    BorderColor 454645
+    BorderThickness 1
+    FontColor 454645
+}
+
+skinparam participant {
+    BackgroundColor FF6347
+    BorderColor 454645
+    FontColor FFFFFF
+    BorderThickness 1.5
+}
+
+skinparam database {
+    BackgroundColor 00FFFF
+    BorderColor 454645
+    FontColor 454645
+}
+
+skinparam entity {
+    BackgroundColor FFE552
+    BorderColor 454645
+    FontColor 454645
+}
+
+skinparam note {
+    BackgroundColor 7FFFD4
+    BorderColor 454645
+    FontColor 454645
+    BorderThickness 1.5
+}
+
+skinparam actor {
+    BackgroundColor 454645
+    BorderColor 454645
+    FontColor 454645
+}
+
+skinparam boundary {
+    BackgroundColor FFE552
+    BorderColor 454645
+    FontColor 454645
+}
+
+skinparam control {
+    BackgroundColor FFE552
+    BorderColor 454645
+    FontColor 454645
+}
+
+skinparam collections {
+    BackgroundColor FF5F42
+    BorderColor 454645
+    FontColor 454645
+}
+
+skinparam queue {
+    BackgroundColor FF6347
+    BorderColor 454645
+    FontColor FFF
+    BorderThickness 1.5
+}
+hide empty members
+
+title Diagramme de Classes - Simulateur de Potager
+
+package "Core" {
+  abstract class Plante {
+    + Nom : string
+    + EstVivace : bool
+    + EstComestible : bool
+    # SaisonsSemis : List<Saison.TypeSaison>
+    # TerrainPrefere : TypeTerrain
+    # VitesseCroissance : double
+    # BesoinEau : int
+    # BesoinLuminosite : int
+    # TemperatureIdeale : Tuple<int, int>
+    + Sante : int
+    + Hauteur : double
+    + Age : int
+    + abstract Croitre(conditions : ConditionsEnvironnementales)
+    + abstract GetRepresentationConsole() : string
+    + DoitMourir(conditions : ConditionsEnvironnementales) : bool
+  }
+
+  abstract class Terrain {
+    + Type : string
+    # TypeDeSol : TypeTerrain
+    + Fertilite : double
+    # HumiditeMax : double
+    # Drainage : double
+    + abstract GetDescription() : string
+    + AppliquerPrecipitations(quantitePluie : double)
+  }
+
+  class Parcelle {
+    + X : int
+    + Y : int
+    + Humidite : double
+    + Fertilite : double
+    + EstPlantee : bool
+    + Planter(nouvellePlante : Plante) : bool
+    + Recolter()
+    + FaireCroitre(conditions : ConditionsEnvironnementales)
+  }
+
+  class ConditionsEnvironnementales {
+    + TemperatureActuelle : Temperature
+    + NiveauPrecipitation : Precipitations
+    + Luminosite : int
+    + ConditionsOptimalesPourPlante(plante : Plante) : bool
+    + EstTempeteViolente() : bool
+  }
+}
+
+package "GestionTempsEtEnvironnement" {
+  class Temps {
+    - semaineActuelle : int
+    + PasserSemaine()
+    + DemarrerJeu() ' Orchestrates game loop
+  }
+
+  class Saison {
+    + SaisonActuelle : TypeSaison
+    + AvancerSaison(semaineActuelle : int)
+    + GetNomSaison() : string
+  }
+  enum TypeSaison {
+    Printemps
+    Ete
+    Automne
+    Hiver
+  }
+
+  class Temperature {
+    + Valeur : int
+    + MettreAJourTemperature(saisonActuelle : TypeSaison)
+    + EstEnGel() : bool
+    + EstEnCanicule() : bool
+  }
+
+  class Precipitations {
+    + Niveau : int
+    + MettreAJourPrecipitations(saisonActuelle : TypeSaison)
+    + EstEnSecheresse(saison : TypeSaison) : bool
+    + EstEnInondation() : bool
+  }
+
+  class Pays {
+    + Nom : string
+    + SemisDisponibles : List<string>
+    + Climat : TypeClimat
+  }
+  enum TypeClimat {
+    Tropical
+    Tempere
+    Aride
+    Continental
+    Polaire
+  }
+  enum TypeTerrain {
+    Sable
+    Terre
+    Argile
+    Limon
+    TerreLimoneuse ' Example from Plaine
+    Rocheux ' Example for Montagne
+    CratereSol ' Example for Cratere
+    Desertique ' Example for Desert
+  }
+}
+
+package "Plantes" {
+  Plante <|- - PlanteComestible
+  abstract class PlanteComestible {
+    + ValeurNutritionnelle : int
+    + TempsDeMaturation : int
+  }
+  PlanteComestible <|- - Tomate
+  class Tomate {}
+  PlanteComestible <|- - Carotte
+  class Carotte {}
+
+  Plante <|- - PlanteAromatique
+  abstract class PlanteAromatique {
+  }
+  PlanteAromatique <|- - Menthe
+  class Menthe {}
+
+  Plante <|- - PlanteCommerciale
+  abstract class PlanteCommerciale {
+    + ValeurMarchande : double
+  }
+  PlanteCommerciale <|- - Coton
+  class Coton {}
+
+  Plante <|- - PlanteOrnementale
+  abstract class PlanteOrnementale {
+  }
+  PlanteOrnementale <|- - Rosier
+  class Rosier {}
+}
+
+package "Terrains" {
+  Terrain <|- - Plaine
+  class Plaine {}
+  Terrain <|- - Montagne
+  class Montagne {}
+  Terrain <|- - Desert
+  class Desert {}
+}
+
+package "Systeme" {
+  class Program {
+    + {static} Main(args : string[])
+  }
+
+  class Affichage {
+    - grilleDuJardin : Parcelle[,]
+    + AfficherPlateau()
+    + AfficherMessage(message : string)
+    + DessinerPlante(plante: Plante) : string
+  }
+
+  class Webcam {
+    + VerifierJardin(conditions : ConditionsEnvironnementales, parcelles : List<Parcelle>)
+    + event AlerteDetectee
+  }
+  class AlerteEventArgs extends System.EventArgs {
+    + Message : string
+  }
+
+  abstract class Obstacle {
+   + Nom : string
+   + abstract AppliquerEffet(parcelle : Parcelle)
+  }
+  Obstacle <|- - Puceron
+  class Puceron {}
+}
+
+package "ModesDeJeu" {
+  class ModeUrgence {
+    + EstActif : bool
+    + DeclencherUrgence(type : string, message : string)
+    + AfficherActionsUrgence()
+    + GererActionJoueurUrgence()
+  }
+  class ModeMagasin {
+    + ArgentJoueur : double
+    + VendreRecolte(planteRecoltee : Plante, quantite : int)
+    + AcheterSemis(nomSemis : string, quantite : int)
+    + AfficherBilanComptable()
+  }
+  class ModeIA {
+    + ObtenirRecommandation(parcelle : Parcelle, conditions : ConditionsEnvironnementales) : string
+  }
+  class ModeEcologique {
+    + BilanCarbone : double
+    + ActionEcologique(typeAction : string)
+    + CalculerImpactEnvironnemental()
+  }
+  class SaveManager {
+    + SauvegarderPartie(etatDuJeu : GameState) ' Assuming a GameState class
+    + ChargerPartie() : GameState
+  }
+  class GameState {
+  }
+}
+
+
+
+Program - -> Temps : "gère"
+Program - -> Affichage : "utilise"
+Program - -> Parcelle : "crée/gère"
+Program - -> Pays : "configure avec"
+
+Temps o- - Saison : "a une"
+Temps o- - Temperature : "gère la"
+Temps o- - Precipitations : "gère les"
+Temps - -> Affichage : "met à jour l'"
+Temps - -> Parcelle : "déclenche croissance sur"
+
+Parcelle "1" *- - "1" Terrain : "est d'un type de"
+Parcelle "1" o- - "0..1" Plante : "contient"
+
+ConditionsEnvironnementales "1" *- - "1" Temperature : "inclut"
+ConditionsEnvironnementales "1" *- - "1" Precipitations : "inclut"
+
+Plante ..> Saison.TypeSaison : "dépend de"
+Plante ..> TypeTerrain : "préfère un"
+Plante ..> ConditionsEnvironnementales : "réagit aux"
+
+Affichage ..> Parcelle : "affiche les"
+Affichage ..> Plante : "dessine la"
+
+Webcam ..> ConditionsEnvironnementales : "surveille les"
+Webcam ..> Parcelle : "surveille les"
+Webcam ..> AlerteEventArgs : "déclenche"
+
+Obstacle ..> Parcelle : "affecte"
+
+Program - -> ModeUrgence : "gère"
+Program - -> ModeMagasin : "gère"
+Program - -> ModeIA : "utilise"
+Program - -> ModeEcologique : "gère"
+Program - -> SaveManager : "utilise"
+
+ModeUrgence ..> Parcelle : "interagit avec"
+ModeMagasin ..> Plante : "vend/achète"
+ModeIA ..> Parcelle : "analyse"
+ModeIA ..> ConditionsEnvironnementales : "analyse"
+SaveManager ..> GameState : "sérialise/désérialise"
+
+Saison - - TypeSaison
+Terrain - - TypeTerrain
+Pays - - TypeClimat
+
+note right of AlerteEventArgs : System.EventArgs est externe
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>
